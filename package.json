@@ -7,6 +7,14 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "gridsome": "^0.6.0"
+    "@gridsome/source-filesystem": "^0.5.0",
+    "@gridsome/transformer-remark": "^0.3.2",
+    "gridsome": "^0.6.0",
+    "gridsome-plugin-remark-shiki": "^0.3.0",
+    "gridsome-plugin-tailwindcss": "^2.2.14",
+    "medium-zoom": "^1.0.4",
+    "moment": "^2.24.0",
+    "tailwindcss-transitions": "^2.0.1",
+    "vue-parallaxy": "^1.1.1"
   }
 }
