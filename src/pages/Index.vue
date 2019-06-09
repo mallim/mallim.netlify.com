@@ -2,39 +2,43 @@
   <Layout class="bg-white">
     <main>
       <header>
-        <div class="max-w-xl md:max-w-3xl xl:max-w-4xl mx-auto text-center px-6 py-10 md:py-32 border-b border-gray-300">
+        <div
+          class="max-w-xl md:max-w-3xl xl:max-w-4xl mx-auto text-center px-6 py-10 md:py-32 border-b border-gray-300"
+        >
           <h1 class="text-4xl sm:text-5xl md:text-6xl font-sans font-bold mb-1">
             <g-link to="/" class="text-black">Mallim</g-link>
           </h1>
-          <p class="text-gray-700 text-lg sm:text-3xl">Thoughts, stories, and ideas of a Software Journeyman</p>
+          <p
+            class="text-gray-700 text-lg sm:text-3xl"
+          >Thoughts, stories, and ideas of a Software Craftsman</p>
         </div>
       </header>
       <section>
-        <post-item v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node" />
+        <post-item v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node"/>
       </section>
-      <pagination :info="$page.posts.pageInfo" v-if="$page.posts.pageInfo.totalPages > 1" />
-      <site-footer class="py-8 sm:py-16" />
+      <pagination :info="$page.posts.pageInfo" v-if="$page.posts.pageInfo.totalPages > 1"/>
+      <site-footer class="py-8 sm:py-16"/>
     </main>
   </Layout>
 </template>
 
 <script>
-import config from '~/.temp/config.js'
-import SiteFooter from '@/components/Footer'
-import PostItem from '@/components/PostItem'
-import Pagination from '@/components/Pagination'
+import config from "~/.temp/config.js";
+import SiteFooter from "@/components/Footer";
+import PostItem from "@/components/PostItem";
+import Pagination from "@/components/Pagination";
 
 export default {
   components: {
     PostItem,
     Pagination,
-    SiteFooter,
+    SiteFooter
   },
-  metaInfo () {
+  metaInfo() {
     return {
       title: this.config.siteName,
       meta: [
-        { property: "og:type", content: 'website' },
+        { property: "og:type", content: "website" },
         { property: "og:title", content: this.config.siteName },
         { property: "og:description", content: this.config.siteDescription },
         { property: "og:url", content: this.config.siteUrl },
@@ -43,21 +47,21 @@ export default {
         { name: "twitter:card", content: "summary_large_image" },
         { name: "twitter:title", content: this.config.siteName },
         { name: "twitter:description", content: this.config.siteDescription },
-        { name: "twitter:site", content: "@cossssmin" },
-        { name: "twitter:creator", content: "@cossssmin" },
-        { name: "twitter:image", content: this.ogImageUrl },
-      ],
-    }
+        { name: "twitter:site", content: "@mallim" },
+        { name: "twitter:creator", content: "@mallim" },
+        { name: "twitter:image", content: this.ogImageUrl }
+      ]
+    };
   },
   computed: {
-    config () {
-      return config
+    config() {
+      return config;
     },
-    ogImageUrl () {
-      return `${this.config.siteUrl}/images/bleda-card.png`
+    ogImageUrl() {
+      return `${this.config.siteUrl}/images/bleda-card.png`;
     }
-  },
-}
+  }
+};
 </script>
 
 <page-query>

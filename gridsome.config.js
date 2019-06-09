@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: "A blog of a Software Journeyman",
+  siteName: "A blog of a Software Craftsman",
   siteUrl: 'https://mallim.netlify.com',
   titleTemplate: `%s | Mallim`,
   transformers: {
