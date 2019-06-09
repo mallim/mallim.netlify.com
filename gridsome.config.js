@@ -6,7 +6,7 @@
 
 module.exports = {
   siteName: "A blog of a Software Craftsman",
-  siteUrl: 'https://mallim.netlify.com',
+  siteUrl: "https://mallim.netlify.com",
   titleTemplate: `%s | Mallim`,
   transformers: {
     remark: {
@@ -52,6 +52,12 @@ module.exports = {
         shouldPurge: true,
         shouldImport: true,
         shouldTimeTravel: true
+      }
+    },
+    {
+      use: "@gridsome/plugin-google-analytics",
+      options: {
+        id: "UA-141753100-1"
       }
     }
   ]
