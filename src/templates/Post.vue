@@ -75,8 +75,8 @@ export default {
         { name: "twitter:card", content: "summary_large_image" },
         { name: "twitter:title", content: this.$page.post.title },
         { name: "twitter:description", content: this.description(this.$page.post) },
-        { name: "twitter:site", content: "@cossssmin" },
-        { name: "twitter:creator", content: "@cossssmin" },
+        { name: "twitter:site", content: "@mallim" },
+        { name: "twitter:creator", content: "@mallim" },
         { name: "twitter:image", content: this.ogImageUrl },
       ],
     }
