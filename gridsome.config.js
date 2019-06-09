@@ -59,6 +59,34 @@ module.exports = {
       options: {
         id: "UA-141753100-1"
       }
+    },
+    {
+      use: "@gridsome/plugin-sitemap",
+      options: {
+        cacheTime: 600000 // default
+      }
+    },
+    {
+      use: "gridsome-plugin-rss",
+      options: {
+        contentTypeName: "Post",
+        feedOptions: {
+          title: "Mallim, a blog of a Software Craftsman",
+          feed_url: "https://mallim.netlify.com/feed.xml",
+          site_url: "https://mallim.netlify.com"
+        },
+        feedItemOptions: node => ({
+          title: node.title,
+          description: node.description,
+          url: "https://mallim.netlify.com/" + node.slug,
+          author: node.author,
+          date: node.date
+        }),
+        output: {
+          dir: "./static",
+          name: "feed.xml"
+        }
+      }
     }
   ]
 };
