@@ -10,3 +10,4 @@ tags:
 
 ## Release on 2019-06-10
 * Added [Dependabot](https://dependabot.com/) to monitor the site
+* Added [gridsome-plugin-remark-youtube] to display youtube. Take note that there are two backticks!!!
