@@ -1,14 +1,16 @@
 ---
-title: "A PasserBy"
-description: "Song lyric chinese-to-english translation"
+title: "路過人間 (A PasserBy)"
+description: "路過人間 - a song lyric chinese-to-english translation"
+slug: "song-lyric-a-passerby"
 date: 2019-06-10 22:20:00
 author: mallim
 tags:
     - song-lyric
-    - chinese-english-translation
+    - chinese-english
+    - translation
 ---
 
-## 路過人間 (A Passerby) a Chinese song translation
+## 路過人間 (A Passerby) 
 
 > Singer: 郁可唯 (Yisa Yu) <br/> 作曲 Composed by：張簡君偉 Alex Chang Jien <br/> 作詞 Lyrics by：施人誠 Derek Shih <br/> 編曲 Arranger：Jerry C
 
@@ -38,9 +40,9 @@ tags:
 
 每段並肩 都不過是擦肩 <br/> _Every shoulder to shoulder if not just a brush past_
 
-曾經辜負哪位 這才被虧欠 <br/> _It just that for the past betrayals, then you will be owed_
+曾經辜負哪位 這才被虧欠 <br/> _It's just that only for the past betrayals, then you will be owed_
 
-路過人間 一直這輪迴 <br/> _To a Passerby, we are running in circles_
+路過人間 一直這輪迴 <br/> _To a Passerby, we are always running in circles_
 
 幸運一點 也許最後和誰 都不相欠 <br/> _Maybe you will be lucky, you will end up owing no one_
 
