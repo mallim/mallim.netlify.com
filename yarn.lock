@@ -3764,11 +3764,12 @@ gridsome-plugin-remark-shiki@^0.3.0:
     shiki-languages "^0.1.0"
     unist-util-visit "^1.4.0"
 
-gridsome-plugin-remark-youtube@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/gridsome-plugin-remark-youtube/-/gridsome-plugin-remark-youtube-1.0.1.tgz#f76f213b3568b818b0735497db5432f43e8eb0e6"
-  integrity sha512-HeJ3vrlLFTJrb23DAYU1sApHP2AHrmsm6cWOUIoA+MN9ahBM57lecpttQOBdghzDEqQ30+/iuHhXeGuPGmkUaQ==
+gridsome-plugin-remark-twitter@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/gridsome-plugin-remark-twitter/-/gridsome-plugin-remark-twitter-0.1.2.tgz#0ba8778661ed5f28d454a7ed0fb737b93b4aaeae"
+  integrity sha512-1uCr02aerc7Yues8HqvSaE5wDGpF0VTQFMFo6P9FQ2gmNXQKSwKcDapfqEQsc6eTcMcOZXsCyqUFseWhHa5vUw==
   dependencies:
+    node-fetch "^2.3.0"
     unist-util-visit "^1.4.0"
 
 gridsome-plugin-rss@^1.1.0:
@@ -5540,6 +5541,11 @@ node-emoji@^1.8.1:
   integrity sha512-Yt3384If5H6BYGVHiHwTL+99OzJKHhgp82S8/dktEK73T26BazdgZ4JZh92xSVtGNJvz9UbXdNAc5hcrXV42vw==
   dependencies:
     lodash.toarray "^4.4.0"
+
+node-fetch@^2.3.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
+  integrity sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
 
 node-libs-browser@^2.0.0:
   version "2.2.0"

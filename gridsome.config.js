@@ -20,7 +20,7 @@ module.exports = {
       externalLinksRel: ["nofollow", "noopener", "noreferrer"],
       plugins: [
         [
-          'gridsome-plugin-remark-youtube',
+          "gridsome-plugin-remark-twitter",
           "gridsome-plugin-remark-shiki",
           {
             theme: "min-light"
