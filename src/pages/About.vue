@@ -66,7 +66,7 @@
               </a>
             </li>
           </ul>
-          <hr/>
+          <hr>
           <h3>Additional links</h3>
           <ul class="ml-6 mb-6">
             <li class="list-none text-xl">
@@ -194,7 +194,7 @@ export default {
           content: "A blog of a Software Craftsman."
         },
         { property: "og:url", content: `${this.config.siteUrl}/about/` },
-        { property: "og:image", content: "/images/bleda-card.png" },
+        { property: "og:image", content: "/images/mallim-card.png" },
 
         { name: "twitter:card", content: "summary_large_image" },
         { name: "twitter:title", content: "About" },
@@ -204,7 +204,7 @@ export default {
         },
         { name: "twitter:site", content: "@mallim" },
         { name: "twitter:creator", content: "@mallim" },
-        { name: "twitter:image", content: "/images/bleda-card.png" }
+        { name: "twitter:image", content: "/images/mallim-card.png" }
       ]
     };
   },
