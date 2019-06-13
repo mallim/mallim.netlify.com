@@ -22,7 +22,7 @@
           <h2>Stay Informed</h2>
           <h3>Get notified about the newest posts</h3>
           <ul class="ml-6">
-            <li>
+            <li class="list-none text-xl">
               <a href="https://twitter.com/mallim">
                 <svg
                   class="inline h-4 mr-1 fill-current text-teal-500"
@@ -35,7 +35,7 @@
                 </svg>Follow @mallim
               </a>
             </li>
-            <li>
+            <li class="list-none text-xl">
               <svg
                 class="inline h-4 mr-1 fill-current text-teal-500"
                 xmlns="https://www.w3.org/2000/svg"
@@ -52,7 +52,7 @@
           <h2>About me</h2>
           <h3>Contact me</h3>
           <ul class="ml-6">
-            <li>
+            <li class="list-none text-xl">
               <a href="mailto:mallim.ink@gmail.com">
                 <svg
                   class="inline h-4 mr-1 fill-current text-teal-500"
@@ -66,9 +66,10 @@
               </a>
             </li>
           </ul>
+          <hr/>
           <h3>Additional links</h3>
           <ul class="ml-6 mb-6">
-            <li>
+            <li class="list-none text-xl">
               <a href="https://www.linkedin.com/in/mallim">
                 <svg
                   class="inline h-4 mr-1 fill-current text-teal-500"
@@ -81,7 +82,7 @@
                 </svg>LinkedIn profile
               </a>
             </li>
-            <li>
+            <li class="list-none text-xl">
               <a href="https://github.com/mallim">
                 <svg
                   class="inline h-4 mr-1 fill-current text-teal-500"
@@ -94,7 +95,7 @@
                 </svg>GitHub profile
               </a>
             </li>
-            <li>
+            <li class="list-none text-xl">
               <a href="https://stackoverflow.com/users/970200/ian-lim">
                 <svg
                   class="inline h-4 mr-1 fill-current text-teal-500"
@@ -183,14 +184,14 @@ export default {
         {
           key: "description",
           name: "description",
-          content: "Introduction to the Bleda blog starter for Gridsome."
+          content: "A blog of a Software Craftsman."
         },
 
         { property: "og:type", content: "article" },
         { property: "og:title", content: "About" },
         {
           property: "og:description",
-          content: "Introduction to the Bleda blog starter for Gridsome."
+          content: "A blog of a Software Craftsman."
         },
         { property: "og:url", content: `${this.config.siteUrl}/about/` },
         { property: "og:image", content: "/images/bleda-card.png" },
