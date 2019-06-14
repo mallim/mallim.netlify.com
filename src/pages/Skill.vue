@@ -2,7 +2,7 @@
   <Layout>
     <main>
       <header class="max-w-xl md:max-w-2xl xl:max-w-3xl mx-auto text-center px-6 pt-24">
-        <h1 class="text-4xl sm:text-5xl md:text-6xl font-sans font-bold mb-1">Skill and Tech</h1>
+        <h1 class="text-4xl sm:text-5xl md:text-6xl font-sans font-bold mb-1">My Crafts</h1>
         <!--
         <p class="text-grey-dark text-lg sm:text-3xl">Mallim</p>
         -->
@@ -266,7 +266,7 @@ export default {
   },
   metaInfo() {
     return {
-      title: "About",
+      title: "My Crafts",
       meta: [
         {
           key: "description",
