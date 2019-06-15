@@ -14,6 +14,7 @@ tags:
 ## Changes as of 2019-06-15
 
 - Added a brand new README.md by using [readme-md-generator](https://github.com/kefranabg/readme-md-generator)
+- Upgrade to tailwindcss 1.0.4
 
 ## Changes as of 2019-06-11
 
