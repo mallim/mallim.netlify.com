@@ -1,6 +1,6 @@
 ---
-title: "Java Snippets"
-description: "things to jot my memory"
+title: "Java Snippets #1"
+description: "java snippets for my reference #1"
 date: 2019-06-15 15:05:00
 author: mallim
 tags:
