@@ -10,8 +10,6 @@ tags:
   - translation
 ---
 
-## 雪落下的聲音 (Sound of the Falling Snow)
-
 > 演唱 Singer: 陸虎<br/> 作詞 Lyrics : 于正
 
 輕輕，落在我掌心，<br/> _Gently, falling on my palm,_

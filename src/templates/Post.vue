@@ -17,8 +17,13 @@
           class="markdown text-lg leading-normal text-gray-700"
           v-html="$page.post.content"
         />
-
-        <footer v-if="$page.post.author || $page.post.tags" class="flex flex-wrap pb-10 sm:pb-16">
+        <div class>
+          <vue-disqus shortname="mallim" :identifier="$page.post.title"></vue-disqus>
+        </div>
+        <footer
+          v-if="$page.post.author || $page.post.tags"
+          class="flex flex-wrap pb-10 sm:pb-16 mt-10"
+        >
           <div>
             <g-link
               v-for="tag in $page.post.tags"

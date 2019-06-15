@@ -10,8 +10,6 @@ tags:
     - translation
 ---
 
-## 路過人間 (A Passerby) 
-
 > Singer: 郁可唯 (Yisa Yu) <br/> 作曲 Composed by：張簡君偉 Alex Chang Jien <br/> 作詞 Lyrics by：施人誠 Derek Shih <br/> 編曲 Arranger：Jerry C
 
 嘿 意不意外 她背影 那麼輕快 <br/> _Hey there, is it a surprise, to see her toddling away_
