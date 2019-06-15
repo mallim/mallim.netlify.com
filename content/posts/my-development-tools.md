@@ -118,6 +118,7 @@ Portable version available.
 
 I will always keep a look out of the different handy tools to use for development purpose:
 
+- [SqlPad](http://rickbergfalk.github.io/sqlpad/) - Run SQL in your browser...
 - [Lepton](https://github.com/hackjutsu/Lepton) - github snippet management
 - [The Silver Searcher](https://geoff.greer.fm/ag/) or [ripgrep](https://github.com/BurntSushi/ripgrep) - code searching tool
 - Exploring some Chrome Extensions from https://medium.freecodecamp.org/tools-i-wish-i-had-known-about-when-i-started-coding-57849efd9248,

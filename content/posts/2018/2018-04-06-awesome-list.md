@@ -14,3 +14,4 @@ I see yet another awesome list - [A curated list of awesome static websites serv
 - Kotlin related - [Kotlin is awesome](https://kotlin.link/), [Kotlin Resources](https://www.kotlinresources.com/)
 - [awesome-vuew](https://github.com/vuejs/awesome-vue) - A curated list of awesome things related to Vue.js
 - [A curated list of awesome static websites services](https://github.com/agarrharr/awesome-static-website-services)
+- [](https://github.com/kahun/awesome-sysadmin) - A curated list of amazingly awesome open source sysadmin resources inspired by Awesome PHP.
