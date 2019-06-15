@@ -20,9 +20,10 @@ module.exports = {
       externalLinksRel: ["nofollow", "noopener", "noreferrer"],
       plugins: [
         [
-          // "gridsome-plugin-remark-shiki"{theme: "min-dark"},
-          // "gridsome-plugin-remark-twitter",
           "@gridsome/remark-prismjs"
+        ],
+        [
+          "gridsome-plugin-remark-twitter"
         ]
       ]
     }

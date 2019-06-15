@@ -19,6 +19,7 @@ tags:
 - Remove gridsome-plugin-remark-shiki, add in @gridsome/remark-prismjs. prismjs' theme looks better.
 - Added vue-disqus to support comments in Post.
 - Removed gridsome-plugin-remark-twitter which cannot work with shiki nor prismjs.
+- Reverted back gridsome-plugin-remark-twitter. Solved the problem danvega/gridsome-plugin-remark-twitter#3 and EldoranDev/gridsome-plugin-remark-shiki#8.
 
 ## Changes as of 2019-06-11
 

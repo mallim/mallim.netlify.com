@@ -3785,6 +3785,14 @@ gray-matter@^4.0.2:
     section-matter "^1.0.0"
     strip-bom-string "^1.0.0"
 
+gridsome-plugin-remark-twitter@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/gridsome-plugin-remark-twitter/-/gridsome-plugin-remark-twitter-0.1.2.tgz#0ba8778661ed5f28d454a7ed0fb737b93b4aaeae"
+  integrity sha512-1uCr02aerc7Yues8HqvSaE5wDGpF0VTQFMFo6P9FQ2gmNXQKSwKcDapfqEQsc6eTcMcOZXsCyqUFseWhHa5vUw==
+  dependencies:
+    node-fetch "^2.3.0"
+    unist-util-visit "^1.4.0"
+
 gridsome-plugin-rss@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/gridsome-plugin-rss/-/gridsome-plugin-rss-1.1.0.tgz#de8788ae3bac32911a7717709d82c7d6151b6ecf"
@@ -5554,6 +5562,11 @@ node-emoji@^1.8.1:
   integrity sha512-Yt3384If5H6BYGVHiHwTL+99OzJKHhgp82S8/dktEK73T26BazdgZ4JZh92xSVtGNJvz9UbXdNAc5hcrXV42vw==
   dependencies:
     lodash.toarray "^4.4.0"
+
+node-fetch@^2.3.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
+  integrity sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
 
 node-libs-browser@^2.0.0:
   version "2.2.0"

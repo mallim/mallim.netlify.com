@@ -27,4 +27,5 @@ tags:
 | UNION ALL        | concat()                                |
 | UNION            | concat() and distinct()                 |
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Common SQL Clauses and Their Equivalents in Java 8 Streams - SELECT = map(), CROSS JOIN = flatMap() ... <a href="https://t.co/YHNHGbDsa9">https://t.co/YHNHGbDsa9</a> via <a href="https://twitter.com/JavaOOQ?ref_src=twsrc%5Etfw">@JavaOOQ</a></p>&mdash; Ian Lim (@mallim) <a href="https://twitter.com/mallim/status/1139847377915801600?ref_src=twsrc%5Etfw">June 15, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+https://twitter.com/JavaOOQ?ref_src=twsrc%5Etfw

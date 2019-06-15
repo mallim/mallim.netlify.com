@@ -22,6 +22,7 @@ tags:
   - [Command Pattern](#command-pattern)
   - [Gatling, DeferredResult](#gatling-deferredresult)
 - [Snippets](#snippets)
+  - [ObjectMapper, CsvSchema, CsvMapper](#objectmapper-csvschema-csvmapper)
   - [Flux publishOn and then eg to save user](#flux-publishon-and-then-eg-to-save-user)
   - [Defer a Flux's blocking method](#defer-a-fluxs-blocking-method)
   - [Refactoring with Loops and Collection Pipelines](#refactoring-with-loops-and-collection-pipelines)
@@ -92,7 +93,7 @@ Good to always keep in mind:
 
 ### Spring Data JPA @Query(native=true)
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/query?ref_src=twsrc%5Etfw">@Query</a>(native=true) “Spring Data JPA Projection support for native queries” by Sohan Ganapathy <a href="https://t.co/Wxdi41IZFU">https://t.co/Wxdi41IZFU</a></p>&mdash; Ian Lim (@mallim) <a href="https://twitter.com/mallim/status/1139840256176295938?ref_src=twsrc%5Etfw">June 15, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+https://twitter.com/mallim/status/1139840256176295938?ref_src=twsrc%5Etfw
 
 ### PipelinR
 
@@ -134,9 +135,13 @@ Command pattern in your application. Alternatively, you may consulte the links b
 
 ### Gatling, DeferredResult
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Gatling, DeferredResult - C10k Developing Non Blocking Rest Services With Spring Mvc <a href="https://t.co/yf36ipxVlS">https://t.co/yf36ipxVlS</a> via <a href="https://twitter.com/callistaent?ref_src=twsrc%5Etfw">@callistaent</a></p>&mdash; Ian Lim (@mallim) <a href="https://twitter.com/mallim/status/1139904555527753728?ref_src=twsrc%5Etfw">June 15, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+https://twitter.com/mallim/status/1139904555527753728?ref_src=twsrc%5Etfw
 
 ## Snippets
+
+### ObjectMapper, CsvSchema, CsvMapper
+
+https://twitter.com/mallim/status/1140023271011704832
 
 ### Flux publishOn and then eg to save user
 
@@ -170,7 +175,7 @@ https://martinfowler.com/articles/refactoring-pipelines.html
 
 ### Assert an Exception is Thrown in JUnit 4 and 5
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Assert an Exception is Thrown in JUnit 4 and 5: <a href="https://t.co/SUjkfagr1J">https://t.co/SUjkfagr1J</a> (from the archives)</p>&mdash; Eugen (Baeldung) (@baeldung) <a href="https://twitter.com/baeldung/status/1139487722312257537?ref_src=twsrc%5Etfw">June 14, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+https://twitter.com/baeldung/status/1139487722312257537?ref_src=twsrc%5Etfw
 
 ```java
 @Test
@@ -197,7 +202,7 @@ http://www.orafaq.com/node/2450
 
 ### Java Strings, Generics, Collections, Exceptions, Enums and Annotations Best Practices
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Java Strings, Generics, Collections, Exceptions, Enums and Annotations Best Practices<a href="https://twitter.com/GuidesJava?ref_src=twsrc%5Etfw">@GuidesJava</a> <a href="https://t.co/fdp0OdVKht">https://t.co/fdp0OdVKht</a> <a href="https://t.co/KNcCoAL50c">pic.twitter.com/KNcCoAL50c</a></p>&mdash; Java (@java) <a href="https://twitter.com/java/status/1139931320518348801?ref_src=twsrc%5Etfw">June 15, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+https://twitter.com/java/status/1139931320518348801?ref_src=twsrc%5Etfw
 
 ## Interesting Libraries
 
@@ -248,7 +253,7 @@ https://github.com/cowtowncoder/java-uuid-generator
 
 ### JSONB
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">If Jackson is not your cup of tea, Introducing JSON-B with Spring Boot 2.0 <a href="https://t.co/QJil5JJeGF">https://t.co/QJil5JJeGF</a> via <a href="https://twitter.com/e4developer?ref_src=twsrc%5Etfw">@e4developer</a></p>&mdash; Ian Lim (@mallim) <a href="https://twitter.com/mallim/status/1139859004660670464?ref_src=twsrc%5Etfw">June 15, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+https://twitter.com/mallim/status/1139859004660670464?ref_src=twsrc%5Etfw
 
 ### Randoop
 
