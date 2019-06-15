@@ -26,7 +26,7 @@
                 <img
                   alt="JavaScript"
                   src="/images/logo/javascript.svg?nf_resize=fit&amp;w=40"
-                  class="flex-grow-0 flex-shrink-0 object-contain self-start w-6 mr-2"
+                  class="skill-img"
                 >
                 <div class="flex-1">Javascript</div>
               </div>
@@ -34,7 +34,7 @@
                 <img
                   alt="Angular"
                   src="/images/logo/angular.svg?nf_resize=fit&amp;w=40"
-                  class="flex-grow-0 flex-shrink-0 object-contain self-start w-6 mr-2"
+                  class="skill-img"
                 >
                 <div class="flex-1">Angular</div>
               </div>
@@ -42,7 +42,7 @@
                 <img
                   alt="JavaScript"
                   src="/images/logo/vue.png?nf_resize=fit&amp;w=40"
-                  class="flex-grow-0 flex-shrink-0 object-contain self-start w-6 mr-2"
+                  class="skill-img"
                 >
                 <div class="flex-1">Vue</div>
               </div>
@@ -50,7 +50,7 @@
                 <img
                   alt="TailWind CSS"
                   src="/images/logo/tailwind.png?nf_resize=fit&amp;w=40"
-                  class="flex-grow-0 flex-shrink-0 object-contain self-start w-6 mr-2"
+                  class="skill-img"
                 >
                 <div class="flex-1">TailWind CSS</div>
               </div>
@@ -58,7 +58,7 @@
                 <img
                   alt="SASS"
                   src="/images/logo/node-sass.svg?nf_resize=fit&amp;w=40"
-                  class="flex-grow-0 flex-shrink-0 object-contain self-start w-6 mr-2"
+                  class="skill-img"
                 >
                 <div class="flex-1">SASS</div>
               </div>
@@ -66,7 +66,7 @@
                 <img
                   alt="ParcelJS"
                   src="/images/logo/parceljs.jpg?nf_resize=fit&amp;w=40"
-                  class="flex-grow-0 flex-shrink-0 object-contain self-start w-6 mr-2"
+                  class="skill-img"
                 >
                 <div class="flex-1">ParcelJS</div>
               </div>
@@ -74,7 +74,7 @@
                 <img
                   alt="Webpack"
                   src="/images/logo/webpack.png?nf_resize=fit&amp;w=40"
-                  class="flex-grow-0 flex-shrink-0 object-contain self-start w-6 mr-2"
+                  class="skill-img"
                 >
                 <div class="flex-1">Webpack</div>
               </div>
@@ -82,7 +82,7 @@
                 <img
                   alt="Redux"
                   src="/images/logo/redux.svg?nf_resize=fit&amp;w=40"
-                  class="flex-grow-0 flex-shrink-0 object-contain self-start w-6 mr-2"
+                  class="skill-img"
                 >
                 <div class="flex-1">Redux</div>
               </div>
@@ -90,7 +90,7 @@
                 <img
                   alt="Lodash"
                   src="/images/logo/lodash.svg?nf_resize=fit&amp;w=40"
-                  class="flex-grow-0 flex-shrink-0 object-contain self-start w-6 mr-2"
+                  class="skill-img"
                 >
                 <div class="flex-1">Lodash</div>
               </div>
@@ -98,7 +98,7 @@
                 <img
                   alt="ag-Grid"
                   src="/images/logo/ag-grid.jpg?nf_resize=fit&amp;w=40"
-                  class="flex-grow-0 flex-shrink-0 object-contain self-start w-6 mr-2"
+                  class="skill-img"
                 >
                 <div class="flex-1">ag-Grid</div>
               </div>
@@ -111,7 +111,7 @@
                 <img
                   alt="Spring Boot"
                   src="/images/logo/spring-boot.png?nf_resize=fit&amp;w=40"
-                  class="flex-grow-0 flex-shrink-0 object-contain self-start w-6 mr-2"
+                  class="skill-img"
                 >
                 <div class="flex-1">Spring Boot</div>
               </div>
@@ -119,7 +119,7 @@
                 <img
                   alt="Spring Framework"
                   src="/images/logo/icon-spring-framework.svg?nf_resize=fit&amp;w=40"
-                  class="flex-grow-0 flex-shrink-0 object-contain self-start w-6 mr-2"
+                  class="skill-img"
                 >
                 <div class="flex-1">Spring Framework</div>
               </div>
@@ -127,7 +127,7 @@
                 <img
                   alt="MyBatis"
                   src="/images/logo/mybatis.svg?nf_resize=fit&amp;w=40"
-                  class="flex-grow-0 flex-shrink-0 object-contain self-start w-6 mr-2"
+                  class="skill-img"
                 >
                 <div class="flex-1">MyBatis</div>
               </div>
@@ -135,7 +135,7 @@
                 <img
                   alt="Spring Data JPA"
                   src="/images/logo/mybatis.svg?nf_resize=fit&amp;w=40"
-                  class="flex-grow-0 flex-shrink-0 object-contain self-start w-6 mr-2"
+                  class="skill-img"
                 >
                 <div class="flex-1">Spring Data JPA</div>
               </div>
@@ -143,7 +143,7 @@
                 <img
                   alt="Spring Security"
                   src="/images/logo/spring-security.png?nf_resize=fit&amp;w=40"
-                  class="flex-grow-0 flex-shrink-0 object-contain self-start w-6 mr-2"
+                  class="skill-img"
                 >
                 <div class="flex-1">Spring Security</div>
               </div>
@@ -151,7 +151,7 @@
                 <img
                   alt="Quartz Job Scheduler"
                   src="/images/logo/quartz.jpg?nf_resize=fit&amp;w=40"
-                  class="flex-grow-0 flex-shrink-0 object-contain self-start w-6 mr-2"
+                  class="skill-img"
                 >
                 <div class="flex-1">Quartz Job Scheduler</div>
               </div>
@@ -159,7 +159,7 @@
                 <img
                   alt="Project Reactor"
                   src="/images/logo/reactor.png?nf_resize=fit&amp;w=40"
-                  class="flex-grow-0 flex-shrink-0 object-contain self-start w-6 mr-2"
+                  class="skill-img"
                 >
                 <div class="flex-1">Project Reactor</div>
               </div>
@@ -167,7 +167,7 @@
                 <img
                   alt="Apache Camel"
                   src="/images/logo/apache-camel.svg?nf_resize=fit&amp;w=40"
-                  class="flex-grow-0 flex-shrink-0 object-contain self-start w-6 mr-2"
+                  class="skill-img"
                 >
                 <div class="flex-1">Apache Camel</div>
               </div>
@@ -175,7 +175,7 @@
                 <img
                   alt="Univocity Parser"
                   src="/images/logo/univocity-parser.png?nf_resize=fit&amp;w=40"
-                  class="flex-grow-0 flex-shrink-0 object-contain self-start w-6 mr-2"
+                  class="skill-img"
                 >
                 <div class="flex-1">Univocity Parser</div>
               </div>
@@ -188,7 +188,7 @@
                 <img
                   alt="SQL"
                   src="/images/logo/sql-file-format-symbol-svgrepo-com.svg?nf_resize=fit&amp;w=40"
-                  class="flex-grow-0 flex-shrink-0 object-contain self-start w-6 mr-2"
+                  class="skill-img"
                 >
                 <div class="flex-1">SQL</div>
               </div>
@@ -196,7 +196,7 @@
                 <img
                   alt="NodeJS"
                   src="/images/logo/nodejs.png?nf_resize=fit&amp;w=40"
-                  class="flex-grow-0 flex-shrink-0 object-contain self-start w-6 mr-2"
+                  class="skill-img"
                 >
                 <div class="flex-1">NodeJS</div>
               </div>
@@ -204,7 +204,7 @@
                 <img
                   alt="Pentaho Data Integration (Kettle)"
                   src="/images/logo/kettle.jpg?nf_resize=fit&amp;w=40"
-                  class="flex-grow-0 flex-shrink-0 object-contain self-start w-6 mr-2"
+                  class="skill-img"
                 >
                 <div class="flex-1">Pentaho Data Integration (Kettle)</div>
               </div>
@@ -212,7 +212,7 @@
                 <img
                   alt="Jenkins"
                   src="/images/logo/jenkins.png?nf_resize=fit&amp;w=40"
-                  class="flex-grow-0 flex-shrink-0 object-contain self-start w-6 mr-2"
+                  class="skill-img"
                 >
                 <div class="flex-1">Jenkins</div>
               </div>
@@ -220,7 +220,7 @@
                 <img
                   alt="Intellij"
                   src="/images/logo/intellij.svg?nf_resize=fit&amp;w=40"
-                  class="flex-grow-0 flex-shrink-0 object-contain self-start w-6 mr-2"
+                  class="skill-img"
                 >
                 <div class="flex-1">Intellij</div>
               </div>
@@ -228,7 +228,7 @@
                 <img
                   alt="Gitbucket"
                   src="/images/logo/gitbucket.png?nf_resize=fit&amp;w=40"
-                  class="flex-grow-0 flex-shrink-0 object-contain self-start w-6 mr-2"
+                  class="skill-img"
                 >
                 <div class="flex-1">Gitbucket</div>
               </div>
@@ -236,7 +236,7 @@
                 <img
                   alt="Liquibase"
                   src="/images/logo/liquibase.jpg?nf_resize=fit&amp;w=40"
-                  class="flex-grow-0 flex-shrink-0 object-contain self-start w-6 mr-2"
+                  class="skill-img"
                 >
                 <div class="flex-1">Liquibase</div>
               </div>
@@ -244,7 +244,7 @@
                 <img
                   alt="Git"
                   src="/images/logo/git.png?nf_resize=fit&amp;w=40"
-                  class="flex-grow-0 flex-shrink-0 object-contain self-start w-6 mr-2"
+                  class="skill-img"
                 >
                 <div class="flex-1">Git</div>
               </div>
@@ -252,7 +252,7 @@
                 <img
                   alt="SVN"
                   src="/images/logo/svn.png?nf_resize=fit&amp;w=40"
-                  class="flex-grow-0 flex-shrink-0 object-contain self-start w-6 mr-2"
+                  class="skill-img"
                 >
                 <div class="flex-1">SVN</div>
               </div>
@@ -260,7 +260,7 @@
                 <img
                   alt="Postman"
                   src="/images/logo/postman.svg?nf_resize=fit&amp;w=40"
-                  class="flex-grow-0 flex-shrink-0 object-contain self-start w-6 mr-2"
+                  class="skill-img"
                 >
                 <div class="flex-1">Postman</div>
               </div>
@@ -318,3 +318,9 @@ export default {
   }
 };
 </script>
+<style>
+.skill-img {
+  @apply flex-grow-0 flex-shrink-0 object-contain self-start w-6 mr-2;
+}
+</style>
+
