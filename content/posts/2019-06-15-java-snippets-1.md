@@ -1,13 +1,74 @@
 ---
 title: "Java Snippets #1"
 description: "java snippets for my reference #1"
-date: 2019-06-15 15:05:00
+date: 2019-06-15 21:21:00
 author: mallim
 tags:
   - java
   - snippet
   - spring-data-jpa
+  - command-pattern
 ---
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [PipelinR](#pipelinr)
+- [Command Pattern](#command-pattern)
+- [Flux publishOn and then eg to save user](#flux-publishon-and-then-eg-to-save-user)
+- [Defer a Flux's blocking method](#defer-a-fluxs-blocking-method)
+- [Refactoring with Loops and Collection Pipelines](#refactoring-with-loops-and-collection-pipelines)
+  - [Spring Boot Concurrency Basics](#spring-boot-concurrency-basics)
+- [Spring Data JPA @Query(native=true)](#spring-data-jpa-querynativetrue)
+- [Assert an Exception is Thrown in JUnit 4 and 5](#assert-an-exception-is-thrown-in-junit-4-and-5)
+- [8 Bulk Update Methods in Oracle](#8-bulk-update-methods-in-oracle)
+- [Tablesaw](#tablesaw)
+- [JSONB](#jsonb)
+- [Randoop](#randoop)
+- [Life outside Spring Security](#life-outside-spring-security)
+- [Logging supplementary - Logbook](#logging-supplementary---logbook)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## PipelinR
+
+A lightweight command processing pipeline for Java.
+
+```java
+@RequestMapping("/members")
+public String post(@RequestBody BecomeAMember command) {
+    return pipeline.send(command);
+}
+
+---
+
+@Component
+static class Handler implements Command.Handler<BecomeAMember, String> {
+
+    @Override
+    public String handle(BecomeAMember $) {
+      var member = new Member(new Email($.email, blacklist));
+      members.save(member);
+      return member.id();
+    }
+}
+
+```
+
+## Command Pattern
+
+The @Command in [Axon Framework](http://www.axonframework.org/) is quite a sleek thing to use if you want to adopt
+Command pattern in your application. Alternatively, you may consulte the links below for other options:
+
+- [Commands / Reactions / Funnels service layer](https://github.com/eduardsi/crf-demo)
+- [Spring Command Pattern](https://github.com/khannedy/spring-command-pattern)
+
+```java
+        return serviceExecutor.execute(AddProductToCartCommand.class, request)
+                .map(Response::ok)
+                .subscribeOn(Schedulers.elastic());
+```
 
 ## Flux publishOn and then eg to save user
 
