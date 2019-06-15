@@ -8,6 +8,10 @@ tags:
   - tools
 ---
 
+## doctoc
+
+https://twitter.com/mallim/status/1139869049062428673
+
 ## readme-md-generator
 
 https://twitter.com/mallim/status/1139796896627798016
