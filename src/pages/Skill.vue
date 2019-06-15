@@ -80,6 +80,14 @@
               </div>
               <div class="flex h-12">
                 <img
+                  alt="Redux"
+                  src="/images/logo/redux.svg?nf_resize=fit&amp;w=40"
+                  class="flex-grow-0 flex-shrink-0 object-contain self-start w-6 mr-2"
+                >
+                <div class="flex-1">Redux</div>
+              </div>
+              <div class="flex h-12">
+                <img
                   alt="Lodash"
                   src="/images/logo/lodash.svg?nf_resize=fit&amp;w=40"
                   class="flex-grow-0 flex-shrink-0 object-contain self-start w-6 mr-2"
@@ -215,6 +223,14 @@
                   class="flex-grow-0 flex-shrink-0 object-contain self-start w-6 mr-2"
                 >
                 <div class="flex-1">Intellij</div>
+              </div>
+              <div class="flex h-12">
+                <img
+                  alt="Gitbucket"
+                  src="/images/logo/gitbucket.png?nf_resize=fit&amp;w=40"
+                  class="flex-grow-0 flex-shrink-0 object-contain self-start w-6 mr-2"
+                >
+                <div class="flex-1">Gitbucket</div>
               </div>
               <div class="flex h-12">
                 <img
