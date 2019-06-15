@@ -13,12 +13,14 @@ tags:
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+
 - [Spring Related](#spring-related)
   - [Spring Boot RestController @RequestPart](#spring-boot-restcontroller-requestpart)
   - [Spring Boot Concurrency Basics](#spring-boot-concurrency-basics)
   - [Spring Data JPA @Query(native=true)](#spring-data-jpa-querynativetrue)
   - [PipelinR](#pipelinr)
   - [Command Pattern](#command-pattern)
+  - [Gatling, DeferredResult](#gatling-deferredresult)
 - [Snippets](#snippets)
   - [Flux publishOn and then eg to save user](#flux-publishon-and-then-eg-to-save-user)
   - [Defer a Flux's blocking method](#defer-a-fluxs-blocking-method)
@@ -128,6 +130,10 @@ Command pattern in your application. Alternatively, you may consulte the links b
                 .map(Response::ok)
                 .subscribeOn(Schedulers.elastic());
 ```
+
+### Gatling, DeferredResult 
+
+https://twitter.com/mallim/status/1139904555527753728
 
 ## Snippets
 
