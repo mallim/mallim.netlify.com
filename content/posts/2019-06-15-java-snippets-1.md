@@ -13,7 +13,6 @@ tags:
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-
 - [Spring Related](#spring-related)
   - [Spring Boot RestController @RequestPart](#spring-boot-restcontroller-requestpart)
   - [Spring Boot Concurrency Basics](#spring-boot-concurrency-basics)
@@ -22,6 +21,7 @@ tags:
   - [Command Pattern](#command-pattern)
   - [Gatling, DeferredResult](#gatling-deferredresult)
 - [Snippets](#snippets)
+  - [Download a Large File Through a Spring RestTemplate](#download-a-large-file-through-a-spring-resttemplate)
   - [Common MySQL Queries](#common-mysql-queries)
   - [ObjectMapper, CsvSchema, CsvMapper](#objectmapper-csvschema-csvmapper)
   - [Flux publishOn and then eg to save user](#flux-publishon-and-then-eg-to-save-user)
@@ -31,6 +31,8 @@ tags:
   - [8 Bulk Update Methods in Oracle](#8-bulk-update-methods-in-oracle)
   - [Java Strings, Generics, Collections, Exceptions, Enums and Annotations Best Practices](#java-strings-generics-collections-exceptions-enums-and-annotations-best-practices)
 - [Interesting Libraries](#interesting-libraries)
+  - [CORS Filter](#cors-filter)
+  - [DTO Mapper in Java](#dto-mapper-in-java)
   - [State Machines in Java](#state-machines-in-java)
   - [Events in Java](#events-in-java)
   - [java-uuid-generator](#java-uuid-generator)
@@ -110,7 +112,6 @@ public String post(@RequestBody BecomeAMember command) {
 
 @Component
 static class Handler implements Command.Handler<BecomeAMember, String> {
-
     @Override
     public String handle(BecomeAMember $) {
       var member = new Member(new Email($.email, blacklist));
@@ -129,9 +130,9 @@ Command pattern in your application. Alternatively, you may consulte the links b
 - [Spring Command Pattern](https://github.com/khannedy/spring-command-pattern)
 
 ```java
-        return serviceExecutor.execute(AddProductToCartCommand.class, request)
-                .map(Response::ok)
-                .subscribeOn(Schedulers.elastic());
+  return serviceExecutor.execute(AddProductToCartCommand.class, request)
+          .map(Response::ok)
+          .subscribeOn(Schedulers.elastic());
 ```
 
 ### Gatling, DeferredResult
@@ -139,6 +140,13 @@ Command pattern in your application. Alternatively, you may consulte the links b
 https://twitter.com/mallim/status/1139904555527753728?ref_src=twsrc%5Etfw
 
 ## Snippets
+
+### Download a Large File Through a Spring RestTemplate
+
+- Download Without Resume
+- Download with Pause and Resume
+
+https://twitter.com/mallim/status/1140229762515738626
 
 ### Common MySQL Queries
 
@@ -155,7 +163,8 @@ https://twitter.com/mallim/status/1140023271011704832
 Got the idea from [Developing Reactive applications with Reactive Streams and Java 8 by Brian Clozel, Sébastien Deleuze ](https://youtu.be/Cj4foJzPF80)
 
 ```java
-Flux.publishOn( Scheduler.elastic() ).doOnNext( user -> BlockRepository.saveUser( user ) ).then()
+Flux.publishOn( Scheduler.elastic() )
+    .doOnNext( user -> BlockRepository.saveUser( user ) ).then()
 ```
 
 ### Defer a Flux's blocking method
@@ -163,7 +172,8 @@ Flux.publishOn( Scheduler.elastic() ).doOnNext( user -> BlockRepository.saveUser
 Got the idea from [Developing Reactive applications with Reactive Streams and Java 8 by Brian Clozel, Sébastien Deleuze ](https://youtu.be/Cj4foJzPF80)
 
 ```java
-Flux.defer( () -> Flux.iteratable( BlockRepository.findAllUsers() ) ).subscribeOn( Scheduler.elastic() )
+Flux.defer( () -> Flux.iteratable( BlockRepository.findAllUsers() ) )
+    .subscribeOn( Scheduler.elastic() )
 ```
 
 ### Refactoring with Loops and Collection Pipelines
@@ -212,6 +222,17 @@ http://www.orafaq.com/node/2450
 https://twitter.com/java/status/1139931320518348801?ref_src=twsrc%5Etfw
 
 ## Interesting Libraries
+
+### CORS Filter
+
+http://software.dzhuvinov.com/cors-filter.html
+
+### DTO Mapper in Java
+
+- [MapStruct](http://mapstruct.org/)
+- [Orika Mapper](http://orika-mapper.github.io/orika-docs/)
+- [ModelMapper](http://modelmapper.org/)
+- [Dozer](https://dozermapper.github.io/)
 
 ### State Machines in Java
 
