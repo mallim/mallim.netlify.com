@@ -20,6 +20,7 @@ Tools and utilities which I will install when I got a new laptop for development
   - [7-zip](#7-zip)
   - [Cmder](#cmder)
   - [IranView](#iranview)
+  - [Fork](#fork)
 - [The Second Waves](#the-second-waves)
   - [reveal.js](#revealjs)
   - [Postman](#postman)
@@ -65,6 +66,10 @@ It is [ConEmu](https://conemu.github.io/) plus [git-for-windows](https://gitforw
 ### [IranView](https://www.irfanview.com/)
 
 [IranView](https://www.irfanview.com/) is used for screenshots and cropping and quick way to edit images.
+
+### [Fork](https://git-fork.com/)
+
+[Fork](https://git-fork.com/) is my first choice git client on Windows
 
 ## The Second Waves
 

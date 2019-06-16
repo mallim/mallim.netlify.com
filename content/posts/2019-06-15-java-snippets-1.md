@@ -1,7 +1,7 @@
 ---
 title: "Java Snippets #1"
 description: "java snippets for my reference #1"
-date: 2019-06-15 21:21:00
+date: 2019-06-16 19:45:00
 author: mallim
 tags:
   - java
@@ -22,6 +22,7 @@ tags:
   - [Command Pattern](#command-pattern)
   - [Gatling, DeferredResult](#gatling-deferredresult)
 - [Snippets](#snippets)
+  - [Common MySQL Queries](#common-mysql-queries)
   - [ObjectMapper, CsvSchema, CsvMapper](#objectmapper-csvschema-csvmapper)
   - [Flux publishOn and then eg to save user](#flux-publishon-and-then-eg-to-save-user)
   - [Defer a Flux's blocking method](#defer-a-fluxs-blocking-method)
@@ -138,6 +139,12 @@ Command pattern in your application. Alternatively, you may consulte the links b
 https://twitter.com/mallim/status/1139904555527753728?ref_src=twsrc%5Etfw
 
 ## Snippets
+
+### Common MySQL Queries
+
+http://www.artfulsoftware.com/infotree/queries.php
+
+can also think of it as a SQL cheatsheet
 
 ### ObjectMapper, CsvSchema, CsvMapper
 
