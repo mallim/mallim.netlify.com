@@ -1,7 +1,7 @@
 ---
 title: "Java Snippets #1"
 description: "java snippets for my reference #1"
-date: 2019-06-16 19:45:00
+date: 2019-06-18 01:00:00
 author: mallim
 tags:
   - java
@@ -13,34 +13,35 @@ tags:
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Spring Related](#spring-related)
-  - [Spring Boot RestController @RequestPart](#spring-boot-restcontroller-requestpart)
-  - [Spring Boot Concurrency Basics](#spring-boot-concurrency-basics)
-  - [Spring Data JPA @Query(native=true)](#spring-data-jpa-querynativetrue)
-  - [PipelinR](#pipelinr)
-  - [Command Pattern](#command-pattern)
-  - [Gatling, DeferredResult](#gatling-deferredresult)
-- [Snippets](#snippets)
-  - [Download a Large File Through a Spring RestTemplate](#download-a-large-file-through-a-spring-resttemplate)
-  - [Common MySQL Queries](#common-mysql-queries)
-  - [ObjectMapper, CsvSchema, CsvMapper](#objectmapper-csvschema-csvmapper)
-  - [Flux publishOn and then eg to save user](#flux-publishon-and-then-eg-to-save-user)
-  - [Defer a Flux's blocking method](#defer-a-fluxs-blocking-method)
-  - [Refactoring with Loops and Collection Pipelines](#refactoring-with-loops-and-collection-pipelines)
-  - [Assert an Exception is Thrown in JUnit 4 and 5](#assert-an-exception-is-thrown-in-junit-4-and-5)
-  - [8 Bulk Update Methods in Oracle](#8-bulk-update-methods-in-oracle)
-  - [Java Strings, Generics, Collections, Exceptions, Enums and Annotations Best Practices](#java-strings-generics-collections-exceptions-enums-and-annotations-best-practices)
-- [Interesting Libraries](#interesting-libraries)
-  - [CORS Filter](#cors-filter)
-  - [DTO Mapper in Java](#dto-mapper-in-java)
-  - [State Machines in Java](#state-machines-in-java)
-  - [Events in Java](#events-in-java)
+- [Spring Related](#Spring-Related)
+  - [Spring Boot RestController @RequestPart](#Spring-Boot-RestController-RequestPart)
+  - [Spring Boot Concurrency Basics](#Spring-Boot-Concurrency-Basics)
+  - [Spring Data JPA @Query(native=true)](#Spring-Data-JPA-Querynativetrue)
+  - [PipelinR](#PipelinR)
+  - [Command Pattern](#Command-Pattern)
+  - [Gatling, DeferredResult](#Gatling-DeferredResult)
+- [Snippets](#Snippets)
+  - [Generating QR Codes With Secure Hashes Using Java](#Generating-QR-Codes-With-Secure-Hashes-Using-Java)
+  - [Download a Large File Through a Spring RestTemplate](#Download-a-Large-File-Through-a-Spring-RestTemplate)
+  - [Common MySQL Queries](#Common-MySQL-Queries)
+  - [ObjectMapper, CsvSchema, CsvMapper](#ObjectMapper-CsvSchema-CsvMapper)
+  - [Flux publishOn and then eg to save user](#Flux-publishOn-and-then-eg-to-save-user)
+  - [Defer a Flux's blocking method](#Defer-a-Fluxs-blocking-method)
+  - [Refactoring with Loops and Collection Pipelines](#Refactoring-with-Loops-and-Collection-Pipelines)
+  - [Assert an Exception is Thrown in JUnit 4 and 5](#Assert-an-Exception-is-Thrown-in-JUnit-4-and-5)
+  - [8 Bulk Update Methods in Oracle](#8-Bulk-Update-Methods-in-Oracle)
+  - [Java Strings, Generics, Collections, Exceptions, Enums and Annotations Best Practices](#Java-Strings-Generics-Collections-Exceptions-Enums-and-Annotations-Best-Practices)
+- [Interesting Libraries](#Interesting-Libraries)
+  - [CORS Filter](#CORS-Filter)
+  - [DTO Mapper in Java](#DTO-Mapper-in-Java)
+  - [State Machines in Java](#State-Machines-in-Java)
+  - [Events in Java](#Events-in-Java)
   - [java-uuid-generator](#java-uuid-generator)
-  - [Tablesaw](#tablesaw)
-  - [JSONB](#jsonb)
-  - [Randoop](#randoop)
-  - [Life outside Spring Security](#life-outside-spring-security)
-  - [Logging supplementary - Logbook](#logging-supplementary---logbook)
+  - [Tablesaw](#Tablesaw)
+  - [JSONB](#JSONB)
+  - [Randoop](#Randoop)
+  - [Life outside Spring Security](#Life-outside-Spring-Security)
+  - [Logging supplementary - Logbook](#Logging-supplementary---Logbook)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -140,6 +141,10 @@ Command pattern in your application. Alternatively, you may consulte the links b
 https://twitter.com/mallim/status/1139904555527753728?ref_src=twsrc%5Etfw
 
 ## Snippets
+
+### Generating QR Codes With Secure Hashes Using Java
+
+https://twitter.com/java/status/1140987530520793089
 
 ### Download a Large File Through a Spring RestTemplate
 
