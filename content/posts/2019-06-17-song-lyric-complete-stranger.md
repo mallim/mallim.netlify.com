@@ -1,6 +1,6 @@
 ---
 title: "連名帶姓 (Complete Stranger)"
-description: "連名帶姓 - a song lyric chinese-to-english translation"
+excerpt: "連名帶姓 - 張惠妹 - a song lyric chinese-to-english translation"
 slug: "song-lyric-complete-stranger"
 date: 2019-06-17 22:35:00
 author: mallim

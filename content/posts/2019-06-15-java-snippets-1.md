@@ -1,6 +1,6 @@
 ---
 title: "Java Snippets #1"
-description: "java snippets for my reference #1"
+excerpt: "CsvSchema, CsvMapper, Logbook..."
 date: 2019-06-18 01:00:00
 author: mallim
 tags:
@@ -8,6 +8,9 @@ tags:
   - snippet
   - spring-data-jpa
   - command-pattern
+  - logbook
+  - requestpart
+  - java-uuid-generator
 ---
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->

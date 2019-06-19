@@ -1,6 +1,6 @@
 ---
 title: "Session Fixation"
-description: "possible options in fixing this"
+excerpt: "What are the possible options to fix this?"
 date: 2019-06-18 22:17:00
 author: mallim
 tags:
@@ -23,7 +23,7 @@ Source code at here : https://stackoverflow.com/a/44065501/970200
 httpServletRequest.changeSessionId();
 ```
 
-## Spring Security 
+## Spring Security
 
 ```java
 @Configuration

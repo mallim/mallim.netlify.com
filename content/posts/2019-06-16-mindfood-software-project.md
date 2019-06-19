@@ -1,6 +1,6 @@
 ---
 title: "Mind Food for Software Projects"
-excerpts: "Things which you should know about software projects..."
+excerpt: "Things which you should know about software projects..."
 date: 2019-06-18 00:50:00
 author: mallim
 tags:
