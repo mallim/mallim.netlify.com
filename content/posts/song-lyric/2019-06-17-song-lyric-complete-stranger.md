@@ -8,6 +8,8 @@ tags:
   - song-lyric
   - chinese-english
   - translation
+  - 張惠妹
+  - 連名帶姓
 ---
 
 > Singer 歌手: A-Mei 張惠妹<br/> Lyricist 作词: Ge Da Wei 葛大為<br/> Composer 作曲: Jay Chou 周杰倫

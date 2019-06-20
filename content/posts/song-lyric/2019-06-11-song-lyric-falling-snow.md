@@ -8,6 +8,8 @@ tags:
   - song-lyric
   - chinese-english
   - translation
+  - 陸虎
+  - 雪落下的聲音
 ---
 
 > 演唱 Singer: 陸虎<br/> 作詞 Lyrics : 于正
