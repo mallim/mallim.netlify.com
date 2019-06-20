@@ -1,7 +1,7 @@
 ---
 title: "Java Snippets #1"
 excerpt: "CsvSchema, CsvMapper, Logbook..."
-date: 2019-06-18 01:00:00
+date: 2019-06-20 23:38:00
 author: mallim
 tags:
   - java
@@ -17,6 +17,9 @@ tags:
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Spring Related](#Spring-Related)
+  - [Collections of articles on Spring Data /Hibernate](#Collections-of-articles-on-Spring-Data-Hibernate)
+  - [5 ways to customize Spring MVC JSON/XML output](#5-ways-to-customize-Spring-MVC-JSONXML-output)
+  - [Download a Large File Through a Spring RestTemplate](#Download-a-Large-File-Through-a-Spring-RestTemplate)
   - [Spring Boot RestController @RequestPart](#Spring-Boot-RestController-RequestPart)
   - [Spring Boot Concurrency Basics](#Spring-Boot-Concurrency-Basics)
   - [Spring Data JPA @Query(native=true)](#Spring-Data-JPA-Querynativetrue)
@@ -25,7 +28,6 @@ tags:
   - [Gatling, DeferredResult](#Gatling-DeferredResult)
 - [Snippets](#Snippets)
   - [Generating QR Codes With Secure Hashes Using Java](#Generating-QR-Codes-With-Secure-Hashes-Using-Java)
-  - [Download a Large File Through a Spring RestTemplate](#Download-a-Large-File-Through-a-Spring-RestTemplate)
   - [Common MySQL Queries](#Common-MySQL-Queries)
   - [ObjectMapper, CsvSchema, CsvMapper](#ObjectMapper-CsvSchema-CsvMapper)
   - [Flux publishOn and then eg to save user](#Flux-publishOn-and-then-eg-to-save-user)
@@ -49,6 +51,21 @@ tags:
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Spring Related
+
+### Collections of articles on Spring Data /Hibernate
+
+https://twitter.com/mallim/status/1141718461397135360
+
+### 5 ways to customize Spring MVC JSON/XML output
+
+https://twitter.com/mallim/status/1141731403886784512
+
+### Download a Large File Through a Spring RestTemplate
+
+- Download Without Resume
+- Download with Pause and Resume
+
+https://twitter.com/mallim/status/1140229762515738626
 
 ### Spring Boot RestController @RequestPart
 
@@ -148,13 +165,6 @@ https://twitter.com/mallim/status/1139904555527753728?ref_src=twsrc%5Etfw
 ### Generating QR Codes With Secure Hashes Using Java
 
 https://twitter.com/java/status/1140987530520793089
-
-### Download a Large File Through a Spring RestTemplate
-
-- Download Without Resume
-- Download with Pause and Resume
-
-https://twitter.com/mallim/status/1140229762515738626
 
 ### Common MySQL Queries
 
