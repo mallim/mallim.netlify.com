@@ -1,13 +1,18 @@
 ---
 title: "Mind Food for Software Projects"
 excerpt: "Things which you should know about software projects..."
-date: 2019-06-18 00:50:00
+date: 2019-06-22 00:10:00
 author: mallim
 tags:
   - mind-food
   - software-project
   - joel-test
+  - CHANGELOG.md
 ---
+
+## CHANGELOG.md guideline
+
+https://twitter.com/mallim/status/1142102267044122627
 
 ## Joel Test
 

@@ -1,7 +1,7 @@
 ---
 title: "Java Snippets #1"
 excerpt: "CsvSchema, CsvMapper, Logbook..."
-date: 2019-06-20 23:38:00
+date: 2019-06-22 00:47:00
 author: mallim
 tags:
   - java
@@ -16,41 +16,89 @@ tags:
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Spring Related](#Spring-Related)
-  - [Collections of articles on Spring Data /Hibernate](#Collections-of-articles-on-Spring-Data-Hibernate)
-  - [5 ways to customize Spring MVC JSON/XML output](#5-ways-to-customize-Spring-MVC-JSONXML-output)
-  - [Download a Large File Through a Spring RestTemplate](#Download-a-Large-File-Through-a-Spring-RestTemplate)
-  - [Spring Boot RestController @RequestPart](#Spring-Boot-RestController-RequestPart)
-  - [Spring Boot Concurrency Basics](#Spring-Boot-Concurrency-Basics)
-  - [Spring Data JPA @Query(native=true)](#Spring-Data-JPA-Querynativetrue)
-  - [PipelinR](#PipelinR)
-  - [Command Pattern](#Command-Pattern)
-  - [Gatling, DeferredResult](#Gatling-DeferredResult)
-- [Snippets](#Snippets)
-  - [Generating QR Codes With Secure Hashes Using Java](#Generating-QR-Codes-With-Secure-Hashes-Using-Java)
-  - [Common MySQL Queries](#Common-MySQL-Queries)
-  - [ObjectMapper, CsvSchema, CsvMapper](#ObjectMapper-CsvSchema-CsvMapper)
-  - [Flux publishOn and then eg to save user](#Flux-publishOn-and-then-eg-to-save-user)
-  - [Defer a Flux's blocking method](#Defer-a-Fluxs-blocking-method)
-  - [Refactoring with Loops and Collection Pipelines](#Refactoring-with-Loops-and-Collection-Pipelines)
-  - [Assert an Exception is Thrown in JUnit 4 and 5](#Assert-an-Exception-is-Thrown-in-JUnit-4-and-5)
-  - [8 Bulk Update Methods in Oracle](#8-Bulk-Update-Methods-in-Oracle)
-  - [Java Strings, Generics, Collections, Exceptions, Enums and Annotations Best Practices](#Java-Strings-Generics-Collections-Exceptions-Enums-and-Annotations-Best-Practices)
-- [Interesting Libraries](#Interesting-Libraries)
-  - [CORS Filter](#CORS-Filter)
-  - [DTO Mapper in Java](#DTO-Mapper-in-Java)
-  - [State Machines in Java](#State-Machines-in-Java)
-  - [Events in Java](#Events-in-Java)
+
+- [SQL related](#sql-related)
+  - [SQL Style Guideline](#sql-style-guideline)
+  - [Common MySQL Queries](#common-mysql-queries)
+  - [8 Bulk Update Methods in Oracle](#8-bulk-update-methods-in-oracle)
+- [Spring Related](#spring-related)
+  - [Yes, Spring Boot 2 can be deployed to WAS 8.5...](#yes-spring-boot-2-can-be-deployed-to-was-85)
+  - [Spring Standalone ApplicationRunner Example](#spring-standalone-applicationrunner-example)
+  - [Collections of articles on Spring Data /Hibernate](#collections-of-articles-on-spring-data-hibernate)
+  - [5 ways to customize Spring MVC JSON/XML output](#5-ways-to-customize-spring-mvc-jsonxml-output)
+  - [Download a Large File Through a Spring RestTemplate](#download-a-large-file-through-a-spring-resttemplate)
+  - [Spring Boot RestController @RequestPart](#spring-boot-restcontroller-requestpart)
+  - [Spring Boot Concurrency Basics](#spring-boot-concurrency-basics)
+  - [Spring Data JPA @Query(native=true)](#spring-data-jpa-querynativetrue)
+  - [PipelinR](#pipelinr)
+  - [Command Pattern](#command-pattern)
+  - [Gatling, DeferredResult](#gatling-deferredresult)
+- [Snippets](#snippets)
+  - [ExecutorService - 10 tips and tricks](#executorservice---10-tips-and-tricks)
+  - [Generating QR Codes With Secure Hashes Using Java](#generating-qr-codes-with-secure-hashes-using-java)
+  - [ObjectMapper, CsvSchema, CsvMapper](#objectmapper-csvschema-csvmapper)
+  - [Flux publishOn and then eg to save user](#flux-publishon-and-then-eg-to-save-user)
+  - [Defer a Flux's blocking method](#defer-a-fluxs-blocking-method)
+  - [Refactoring with Loops and Collection Pipelines](#refactoring-with-loops-and-collection-pipelines)
+  - [Assert an Exception is Thrown in JUnit 4 and 5](#assert-an-exception-is-thrown-in-junit-4-and-5)
+  - [Java Strings, Generics, Collections, Exceptions, Enums and Annotations Best Practices](#java-strings-generics-collections-exceptions-enums-and-annotations-best-practices)
+- [Interesting Libraries](#interesting-libraries)
+  - [CORS Filter](#cors-filter)
+  - [DTO Mapper in Java](#dto-mapper-in-java)
+  - [State Machines in Java](#state-machines-in-java)
+  - [Events in Java](#events-in-java)
   - [java-uuid-generator](#java-uuid-generator)
-  - [Tablesaw](#Tablesaw)
-  - [JSONB](#JSONB)
-  - [Randoop](#Randoop)
-  - [Life outside Spring Security](#Life-outside-Spring-Security)
-  - [Logging supplementary - Logbook](#Logging-supplementary---Logbook)
+  - [Tablesaw](#tablesaw)
+  - [JSONB](#jsonb)
+  - [Randoop](#randoop)
+  - [Life outside Spring Security](#life-outside-spring-security)
+  - [Logging supplementary - Logbook](#logging-supplementary---logbook)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+## SQL related
+
+### SQL Style Guideline
+
+Interesting ideas:
+
+- Use != over <>
+- Column names should be snake_case
+- Avoid aliasing tables
+- Take advantage of lateral column aliasing
+- Grouping columns should go first
+- Always have a CTE named final
+
+https://twitter.com/mallim/status/1142109089687724034
+
+### Common MySQL Queries
+
+http://www.artfulsoftware.com/infotree/queries.php
+
+can also think of it as a SQL cheatsheet
+
+### 8 Bulk Update Methods in Oracle
+
+http://www.orafaq.com/node/2450
+
+- Explicit Cursor Loop
+- Implicit Cursor Loop
+- UPDATE with nested SET subquery
+- BULK COLLECT / FORALL UPDATE
+- Updateable Join View
+- MERGE
+- Parallel DML MERGE
+- Parallel PL/SQL
+
 ## Spring Related
+
+### Yes, Spring Boot 2 can be deployed to WAS 8.5...
+
+https://twitter.com/mallim/status/1142112954394877952
+
+### Spring Standalone ApplicationRunner Example
+
+https://twitter.com/mallim/status/1142111765666230272
 
 ### Collections of articles on Spring Data /Hibernate
 
@@ -162,15 +210,13 @@ https://twitter.com/mallim/status/1139904555527753728?ref_src=twsrc%5Etfw
 
 ## Snippets
 
+### ExecutorService - 10 tips and tricks
+
+https://twitter.com/mallim/status/1142116007454003200
+
 ### Generating QR Codes With Secure Hashes Using Java
 
 https://twitter.com/java/status/1140987530520793089
-
-### Common MySQL Queries
-
-http://www.artfulsoftware.com/infotree/queries.php
-
-can also think of it as a SQL cheatsheet
 
 ### ObjectMapper, CsvSchema, CsvMapper
 
@@ -221,19 +267,6 @@ public void whenDerivedExceptionThrown_thenAssertionSucceds() {
     });
 }
 ```
-
-### 8 Bulk Update Methods in Oracle
-
-http://www.orafaq.com/node/2450
-
-- Explicit Cursor Loop
-- Implicit Cursor Loop
-- UPDATE with nested SET subquery
-- BULK COLLECT / FORALL UPDATE
-- Updateable Join View
-- MERGE
-- Parallel DML MERGE
-- Parallel PL/SQL
 
 ### Java Strings, Generics, Collections, Exceptions, Enums and Annotations Best Practices
 

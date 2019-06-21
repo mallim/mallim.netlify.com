@@ -1,11 +1,18 @@
 ---
 title: "Software Blueprints #1"
-excerpt: "Software architecture at a glance - Hexagonal Architecture"
-date: 2019-06-19 23:04:00
+excerpt: "Hexagonal Architecture, TDD"
+date: 2019-06-22 00:21:00
 author: mallim
 tags:
   - hexagonal-architecture
+  - tdd
 ---
+
+## Main Value Proposition of TDD
+
+![TDD](https://blog.codecentric.de/files/2019/06/cycle-250x250.png)
+
+https://twitter.com/mallim/status/1142104478767706112
 
 ## Hexagonal Architecture Abstraction
 
