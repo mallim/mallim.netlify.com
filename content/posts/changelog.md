@@ -1,6 +1,6 @@
 ---
 title: "The Changelog"
-date: 2019-06-16 01:35:00
+date: 2019-06-22 00:05:00
 author: mallim
 tags:
   - blog
@@ -11,6 +11,16 @@ tags:
   - vue-disqus
   - gridsome/remark-prismjs
 ---
+
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
+
+## Changes as of 2019-06-22
+
+- Added html required by PInterest
 
 ## Changes as of 2019-06-16
 
