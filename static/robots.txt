@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://mallim.netlify.com/sitemap.xml
