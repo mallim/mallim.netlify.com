@@ -1,7 +1,7 @@
 ---
 title: "CHANGELOG.md"
 excerpt: CHANGELOG.md for mallim.netlify.com
-date: 2019-06-22 20:37:00
+date: 2019-06-22 00:00:00
 author: mallim
 tags:
   - blog
@@ -21,6 +21,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## Changes as of 2019-06-22
 
+- Fixed broken links by using [Broken Link Checker](https://www.brokenlinkcheck.com/)
 - Added html required by PInterest
 - Added robots.txt based on the article here - https://twitter.com/mallim/status/1142410279067607040
 

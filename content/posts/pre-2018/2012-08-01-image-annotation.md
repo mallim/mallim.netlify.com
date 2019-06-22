@@ -30,8 +30,3 @@ https://github.com/thomashuston/HTML5-Annotation-Tool
 ## A module from OpenMRS
 https://wiki.openmrs.org/display/docs/Drawing+Module
 
-## ActiveX Based
-GdPicture http://www.gdpicture.com/products/dotnet/demo/pdf-image-annotation.html
-
-## Javascript Based
-Javascript Annotations Library  http://www.jsannotations.com/

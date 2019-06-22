@@ -15,22 +15,22 @@ This post records my actvities on this github blog pages :-)
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  
 
-- [Introduction](#introduction)
-  - [Update 30-May-2018](#update-30-may-2018)
-  - [Version Info](#version-info)
-  - [Update Another Theme...](#update-another-theme)
-- [Changelog](#changelog)
-  - [Update 09-May-2018](#update-09-may-2018)
-  - [Update 10-Apr-2018: Add jekyll-seo-tag](#update-10-apr-2018-add-jekyll-seo-tag)
-  - [Update 12-Apr-2018: Upgrade to Bootstrap 4.1 with scss](#update-12-apr-2018-upgrade-to-bootstrap-41-with-scss)
-  - [Update 07-Apr-2018: Added Contact Form](#update-07-apr-2018-added-contact-form)
-  - [Treat this as Hello World](#treat-this-as-hello-world)
-  - [Update 24-Mar-2018: Added Webanalytics for Jekyll, Sitemap](#update-24-mar-2018-added-webanalytics-for-jekyll-sitemap)
-  - [Update before 24-Mar-2018: Disqus is a challenging story](#update-before-24-mar-2018-disqus-is-a-challenging-story)
-- [Lastly...](#lastly)
-  - [Acknowledgements](#acknowledgements)
-  - [What's next?](#whats-next)
-  - [Useful but not so related resources](#useful-but-not-so-related-resources)
+- [Introduction](#Introduction)
+  - [Update 30-May-2018](#Update-30-May-2018)
+  - [Version Info](#Version-Info)
+  - [Update Another Theme...](#Update-Another-Theme)
+- [Changelog](#Changelog)
+  - [Update 09-May-2018](#Update-09-May-2018)
+  - [Update 10-Apr-2018: Add jekyll-seo-tag](#Update-10-Apr-2018-Add-jekyll-seo-tag)
+  - [Update 12-Apr-2018: Upgrade to Bootstrap 4.1 with scss](#Update-12-Apr-2018-Upgrade-to-Bootstrap-41-with-scss)
+  - [Update 07-Apr-2018: Added Contact Form](#Update-07-Apr-2018-Added-Contact-Form)
+  - [Treat this as Hello World](#Treat-this-as-Hello-World)
+  - [Update 24-Mar-2018: Added Webanalytics for Jekyll, Sitemap](#Update-24-Mar-2018-Added-Webanalytics-for-Jekyll-Sitemap)
+  - [Update before 24-Mar-2018: Disqus is a challenging story](#Update-before-24-Mar-2018-Disqus-is-a-challenging-story)
+- [Lastly...](#Lastly)
+  - [Acknowledgements](#Acknowledgements)
+  - [What's next?](#Whats-next)
+  - [Useful but not so related resources](#Useful-but-not-so-related-resources)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -61,7 +61,7 @@ This is updated to this point - 11-MAR-2018 : [Tidied up tag opening/closing and
 
 * Failed attempt in upgrading to Bootstrap 4.1
 * Followed the instruction in [Creating a Jekyll Blog with Bootstrap 4 and Sass - Part 1](https://experimentingwithcode.com/creating-a-jekyll-blog-with-bootstrap-4-and-sass-part-1/index.html)
-* I follow [How to use Sass with Jekyll (Bootstrap and Font Awesome example)](https://dalanzg.github.io/tips-tutorials/jekyll/2016/03/25/how-to-use-sass-with-jekyll/) to do the file structuring
+* I follow [How to use Sass with Jekyll (Bootstrap and Font Awesome example)](https://dalanzg.github.io/tips-tutorials/posts/2016/03/25/how-to-use-sass-with-jekyll-bootstrap-and-font-awesome-example/) to do the file structuring
 
 Need to add the following in _config.yml:
 

@@ -21,7 +21,6 @@ I am actually think is so impressive and reading a [technical paper on it](https
 * [KilimBenchmarkMain.java](https://gist.github.com/Arbow/290451)
 * [Examples using kilim-streams](http://bbs.bugcode.cn/t/40276)
 * [Kilim's Task as inner class - the only example...](https://segmentfault.com/a/1190000000697487)
-* [Comprehensive Kilim's introduction - but in Chinese](http://blog.csdn.net/zy416548283/article/details/79145915)
 * [Java的Actor框架--kilim](http://www.voidcn.com/article/p-viilcazq-w.html)
 
 ### Added on 24-03-2018 - Note to myself

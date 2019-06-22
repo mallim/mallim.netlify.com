@@ -48,10 +48,6 @@ Angular JS - Unit Testing - Services
 
 http://www.benlesh.com/2013/06/angular-js-unit-testing-services.html
 
-The only article which says can $provider.service
-
-http://unbui.lt/#!/post/angular-services-and-di-demystified
-
 ## Nodes Objects and Examples
 
 Objects and classes by example
