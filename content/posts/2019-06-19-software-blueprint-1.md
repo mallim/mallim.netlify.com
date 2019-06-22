@@ -1,12 +1,17 @@
 ---
 title: "Software Blueprints #1"
 excerpt: "Hexagonal Architecture, TDD"
-date: 2019-06-22 00:21:00
+date: 2019-06-22 11:11:00
 author: mallim
 tags:
   - hexagonal-architecture
   - tdd
+  - rules-harvesting
 ---
+
+## Rules Harvesting
+
+https://twitter.com/mallim/status/1142268591380656129
 
 ## Main Value Proposition of TDD
 

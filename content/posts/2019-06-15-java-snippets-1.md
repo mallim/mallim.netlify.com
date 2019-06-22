@@ -1,7 +1,7 @@
 ---
 title: "Java Snippets #1"
 excerpt: "CsvSchema, CsvMapper, Logbook..."
-date: 2019-06-22 00:47:00
+date: 2019-06-22 10:47:00
 author: mallim
 tags:
   - java
@@ -18,6 +18,7 @@ tags:
 
 
 - [SQL related](#sql-related)
+  - [Other JDBC Clients](#other-jdbc-clients)
   - [SQL Style Guideline](#sql-style-guideline)
   - [Common MySQL Queries](#common-mysql-queries)
   - [8 Bulk Update Methods in Oracle](#8-bulk-update-methods-in-oracle)
@@ -34,6 +35,7 @@ tags:
   - [Command Pattern](#command-pattern)
   - [Gatling, DeferredResult](#gatling-deferredresult)
 - [Snippets](#snippets)
+  - [Collections of tutorials on Google Guava](#collections-of-tutorials-on-google-guava)
   - [ExecutorService - 10 tips and tricks](#executorservice---10-tips-and-tricks)
   - [Generating QR Codes With Secure Hashes Using Java](#generating-qr-codes-with-secure-hashes-using-java)
   - [ObjectMapper, CsvSchema, CsvMapper](#objectmapper-csvschema-csvmapper)
@@ -57,6 +59,11 @@ tags:
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## SQL related
+
+### Other JDBC Clients
+
+- [Execute Query](http://executequery.org)
+- [Squirrel sQL](http://squirrel-sql.sourceforge.net/)
 
 ### SQL Style Guideline
 
@@ -209,6 +216,10 @@ Command pattern in your application. Alternatively, you may consulte the links b
 https://twitter.com/mallim/status/1139904555527753728?ref_src=twsrc%5Etfw
 
 ## Snippets
+
+### Collections of tutorials on Google Guava
+
+https://twitter.com/mallim/status/1142266492915867648
 
 ### ExecutorService - 10 tips and tricks
 
