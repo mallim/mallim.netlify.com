@@ -1,7 +1,7 @@
 ---
 title: 'Java Snippets #1'
 excerpt: 'CsvSchema, CsvMapper, Logbook...'
-date: 2019-06-23T18:20:00.000Z
+date: 2019-06-23T18:37:00.000Z
 author: mallim
 tags:
   - java
@@ -22,6 +22,7 @@ tags:
   * [Common MySQL Queries](#common-mysql-queries)
   * [8 Bulk Update Methods in Oracle](#8-bulk-update-methods-in-oracle)
 - [Spring Related](#spring-related)
+  * [NativeCriteria](#nativecriteria)
   * [Yes, Spring Boot 2 can be deployed to WAS 8.5...](#yes-spring-boot-2-can-be-deployed-to-was-85)
   * [Spring Standalone ApplicationRunner Example](#spring-standalone-applicationrunner-example)
   * [Collections of articles on Spring Data /Hibernate](#collections-of-articles-on-spring-data-hibernate)
@@ -98,6 +99,10 @@ http://www.orafaq.com/node/2450
 - Parallel PL/SQL
 
 ## Spring Related
+
+### NativeCriteria
+
+https://twitter.com/mallim/status/1142773304161263616
 
 ### Yes, Spring Boot 2 can be deployed to WAS 8.5...
 
