@@ -1,13 +1,27 @@
 ---
-title: "My Java Stack 2019"
-description: "My preferred java working stack"
-slug: "my-java-stack"
-date: 2019-06-25 21:08:00
+title: My Java Stack 2019
+excerpt: My preferred java working stack
+slug: my-java-stack
+date: 2019-06-25T21:08:00.000Z
 author: mallim
 tags:
   - java
   - working-stack
 ---
+
+
+<!-- toc -->
+
+- [Introduction](#introduction)
+- [Web frameworks](#web-frameworks)
+- [Supporting libraries for web frameworks](#supporting-libraries-for-web-frameworks)
+- [Relational data persistence](#relational-data-persistence)
+- [Authentication framework](#authentication-framework)
+- [ETL libraries](#etl-libraries)
+- [Utilities libraries](#utilities-libraries)
+- [Supplementary libraries](#supplementary-libraries)
+
+<!-- tocstop -->
 
 ## Introduction
 
@@ -44,16 +58,18 @@ _*Notes: Spring Data JPA and Mybatis can actually coexists together*_
 
 ## Utilities libraries
 
-- [Commons Lang 2/3](http://commons.apache.org/proper/commons-lang/)
 - [Commons Collections](http://commons.apache.org/proper/commons-collections/)
+- [Commons Lang 2/3](http://commons.apache.org/proper/commons-lang/)
+- [Commons IO](https://commons.apache.org/proper/commons-io/)
 - [Guava](https://github.com/google/guava)
 
 ## Supplementary libraries
 
-_ _Cron expression parser_: [cron-utils](https://github.com/jmrozanec/cron-utils) - Cron utils for parsing, validations and human readable descriptions as well as date/time interoperability. http://cron-utils.com
+- _Cron expression parser_: [cron-utils](https://github.com/jmrozanec/cron-utils) - Cron utils for parsing, validations and human readable descriptions as well as date/time interoperability. http://cron-utils.com
 - _Database source control_: [Liquibase](http://www.liquibase.org/)
 - _DDD, CQRS_: [AxonFramework](https://axoniq.io/) allows you to do @Command, CQRS, EventStore
 - _Filter Support for Spring MVC & Spring Data JPA_: [specification-arg-resolver](https://github.com/tkaczmarzyk/specification-arg-resolver)
 - _Generate dynamic Sql based on hibernate session_: [NativeCriteria](https://blog.przemeknowak.com/NativeCriteria/)
 - _Templating_: [JMustache](https://github.com/samskivert/jmustache) preferred over [Apache Velocity](https://velocity.apache.org/) and [Handlebars.java](http://jknack.github.io/handlebars.java/)
 - _Parser_: [univocity-parser](https://github.com/uniVocity/univocity-parsers) one of the best java based CSV parser around, if you cannot use an ETL tool. Able to work with CSV, TSV, fixed width columns
+
