@@ -19,12 +19,18 @@ module.exports = {
       externalLinksTarget: "_blank",
       externalLinksRel: ["nofollow", "noopener", "noreferrer"],
       plugins: [
+        // ["@gridsome/remark-prismjs"],
         [
-          "@gridsome/remark-prismjs"
+          "gridsome-plugin-remark-shiki",
+          {
+            // Can be any of
+            // https://github.com/octref/shiki/tree/master/packages/themes
+            // and will default to 'nord'
+            theme: "nord",
+            skipInline: true
+          }
         ],
-        [
-          "gridsome-plugin-remark-twitter"
-        ]
+        ["gridsome-plugin-remark-twitter"]
       ]
     }
   },
