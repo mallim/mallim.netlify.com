@@ -22,6 +22,7 @@ tags:
   * [Common MySQL Queries](#common-mysql-queries)
   * [8 Bulk Update Methods in Oracle](#8-bulk-update-methods-in-oracle)
 - [Spring Related](#spring-related)
+  * [@Bean can be declared in a @Component](#bean-can-be-declared-in-a-component)
   * [NativeCriteria](#nativecriteria)
   * [Yes, Spring Boot 2 can be deployed to WAS 8.5...](#yes-spring-boot-2-can-be-deployed-to-was-85)
   * [Spring Standalone ApplicationRunner Example](#spring-standalone-applicationrunner-example)
@@ -99,6 +100,10 @@ http://www.orafaq.com/node/2450
 - Parallel PL/SQL
 
 ## Spring Related
+
+### @Bean can be declared in a @Component
+
+https://twitter.com/mallim/status/1143911215371968512
 
 ### NativeCriteria
 

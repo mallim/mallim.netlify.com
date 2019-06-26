@@ -8,7 +8,7 @@ tags:
   - tailwindcss
 ---
 
-Instructions below are based on the following:
+## Instructions below are based on the following:
 
 - Angular 8 CLI
 - Tailwindcss 1.0.4
