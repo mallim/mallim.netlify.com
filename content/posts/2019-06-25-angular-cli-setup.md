@@ -1,19 +1,19 @@
 ---
 title: "Angular cli working log"
 excerpt: "Angular 8 + Tailwindcss (without ng eject)"
-date: 2019-06-25 21:45:00
+date: 2019-06-26 23:33:00
 author: mallim
 tags:
-  - angular-8
+  - angular
   - tailwindcss
 ---
-
-<p class="text-white text-bold bg-red-700">Take note that this is still work in progress...</p>
 
 Instructions below are based on the following:
 
 - Angular 8 CLI
 - Tailwindcss 1.0.4
+
+For the impatient, you may check [Github](https://github.com/mallim/angular-starter-template)
 
 ## Install the Angular CLI
 
@@ -24,18 +24,26 @@ yarn global add @angular/cli
 ## Create a workspace and initial application (scss)
 
 ```shell
-ng new angular-tailwind --style=scss
+ng new angular-starter-template --style=scss
 ```
 
-## Installing and configuring Tailwind
+## Installing and configuring tailwindcss
 
 ```shell
-cd angular-tailwind
+cd angular-starter-template
 
 yarn add tailwindcss
+
+npx tailwind init
 ```
 
-## Locate src\styles.scss
+## Install dependencies for Angular custom webpacking
+
+```shell
+yarn add @angular-builders/custom-webpack
+```
+
+## Look for src\styles.scss
 
 ```scss
 @tailwind base;
@@ -43,12 +51,6 @@ yarn add tailwindcss
 @tailwind components;
 
 @tailwind utilities;
-```
-
-## Install dependencies for Angular custom webpacking
-
-```shell
-yarn add @angular-builders/custom-webpack
 ```
 
 ## Revise angular.json
@@ -62,13 +64,38 @@ yarn add @angular-builders/custom-webpack
     "builder": "@angular-builders/custom-webpack:browser",
     "options": {
       "customWebpackConfig": {
-        "path": "./extra.webpack.config.js"
+        "path": "./extra-webpack.config.js"
       },
       "outputPath": "dist/angular-tailwind",
       ...
     },
   }
+},
+"serve":{
+  "builder": "@angular-builders/custom-webpack:dev-server"
 }
+```
+
+## Add extra-webpack.config.js
+
+```js
+module.exports = {
+  module: {
+    rules: [
+      {
+        test: /\.scss$/,
+        use: [
+          {
+            loader: "postcss-loader",
+            options: {
+              plugins: [require("tailwindcss")("./tailwind.config.js")]
+            }
+          }
+        ]
+      }
+    ]
+  }
+};
 ```
 
 ## References
@@ -76,9 +103,4 @@ yarn add @angular-builders/custom-webpack
 - [Angular 7 + TailwindCSS](https://medium.com/@brittonkdeets/angular-7-tailwindcss-32ef63f30466)
 - [Using Tailwind with Angular](https://www.jerriepelser.com/blog/using-tailwindcss-with-angular/)
 - [Angular CLI: Custom webpack Config](https://alligator.io/angular/custom-webpack-config/)
-
-<div class="text-center mt-8">
-  <button class="bg-blue hover:bg-blue-light text-white font-bold py-2 px-4 border-b-4 border-blue-dark hover:border-blue rounded">
-    Button
-  </button>
-</div>
+- [Customizing Angular CLI build — an alternative to ng eject](https://codeburst.io/customizing-angular-cli-6-build-an-alternative-to-ng-eject-a48304cd3b21)
