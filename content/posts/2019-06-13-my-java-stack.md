@@ -2,7 +2,7 @@
 title: My Java Stack 2019
 excerpt: My preferred java working stack
 slug: my-java-stack
-date: 2019-06-26 22:20:00
+date: 2019-06-27 21:40:00
 author: mallim
 tags:
   - java
@@ -19,6 +19,7 @@ tags:
 - [Relational data persistence](#Relational-data-persistence)
 - [Utilities libraries](#Utilities-libraries)
 - [Supplementary libraries](#Supplementary-libraries)
+- [Reference](#Reference)
 
 <!-- tocstop -->
 
@@ -74,3 +75,6 @@ List of java libraries which I had used over the years. Especially those which a
 - _Templating_: [JMustache](https://github.com/samskivert/jmustache) preferred over [Apache Velocity](https://velocity.apache.org/) and [Handlebars.java](http://jknack.github.io/handlebars.java/)
 - _Parser_: [univocity-parser](https://github.com/uniVocity/univocity-parsers) one of the best java based CSV parser around, if you cannot use an ETL tool. Able to work with CSV, TSV, fixed width columns
 - _XPath equivalent for JSON_: [JsonPath](https://github.com/json-path/JsonPath)
+
+## Reference
+- [A curated list of awesome Java frameworks, libraries and software](http://developerthing.blogspot.com/2017/09/a-curated-list-of-awesome-java_13.html)

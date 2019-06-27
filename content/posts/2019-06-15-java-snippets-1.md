@@ -1,7 +1,7 @@
 ---
 title: 'Java Snippets #1'
 excerpt: 'CsvSchema, CsvMapper, Logbook...'
-date: 2019-06-23T18:37:00.000Z
+date: 2019-06-27T18:37:00.000Z
 author: mallim
 tags:
   - java
@@ -36,6 +36,7 @@ tags:
   * [Command Pattern](#command-pattern)
   * [Gatling, DeferredResult](#gatling-deferredresult)
 - [Snippets](#snippets)
+  * [Lombok, Jackson and even Mybatis](#lombok-jackson-and-even-mybatis)
   * [Collections of tutorials on Google Guava](#collections-of-tutorials-on-google-guava)
   * [ExecutorService - 10 tips and tricks](#executorservice---10-tips-and-tricks)
   * [Generating QR Codes With Secure Hashes Using Java](#generating-qr-codes-with-secure-hashes-using-java)
@@ -226,6 +227,23 @@ Command pattern in your application. Alternatively, you may consulte the links b
 https://twitter.com/mallim/status/1139904555527753728?ref_src=twsrc%5Etfw
 
 ## Snippets
+
+### Lombok, Jackson and even Mybatis
+
+Lombok immutable classes with builder that can be serialized and deserialized by Jackson.
+
+```java
+@Data
+@Setter(AccessLevel.NONE)
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
+public class Clazz {
+  private String field;
+}
+```
+
+https://stackoverflow.com/a/56127205/970200
 
 ### Collections of tutorials on Google Guava
 
