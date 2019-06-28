@@ -21,6 +21,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## Changes as of 2019-06-29
 
+- Fixed markdown table looks ugly
 - Installed [remark-toc](https://github.com/remarkjs/remark-toc) and [remark-slug](https://github.com/remarkjs/remark-slug) plugins to **auto generate** table of content
 - Removed [markdown-toc](https://github.com/jonschlinkert/markdown-toc)
 
