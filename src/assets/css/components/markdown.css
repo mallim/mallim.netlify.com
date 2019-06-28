@@ -47,6 +47,14 @@
     @apply text-sm;
   }
 
+  th {
+    @apply py-4 px-6 bg-gray-200 font-sans font-medium uppercase text-sm border-b border-gray-100;
+  }
+
+  td {
+    @apply py-4 px-6 border border-gray-200;
+  }
+
   @screen sm {
     h2 {
       @apply text-4xl;
