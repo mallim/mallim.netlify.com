@@ -9,19 +9,7 @@ tags:
   - working-stack
 ---
 
-<!-- toc -->
-
-- [Introduction](#Introduction)
-- [Web frameworks](#Web-frameworks)
-- [Authentication framework](#Authentication-framework)
-- [ETL libraries](#ETL-libraries)
-- [Maven plugins](#Maven-plugins)
-- [Relational data persistence](#Relational-data-persistence)
-- [Utilities libraries](#Utilities-libraries)
-- [Supplementary libraries](#Supplementary-libraries)
-- [Reference](#Reference)
-
-<!-- tocstop -->
+## Table of Contents
 
 ## Introduction
 
@@ -77,4 +65,5 @@ List of java libraries which I had used over the years. Especially those which a
 - _XPath equivalent for JSON_: [JsonPath](https://github.com/json-path/JsonPath)
 
 ## Reference
+
 - [A curated list of awesome Java frameworks, libraries and software](http://developerthing.blogspot.com/2017/09/a-curated-list-of-awesome-java_13.html)

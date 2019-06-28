@@ -30,7 +30,9 @@ module.exports = {
             skipInline: true
           }
         ],
-        ["gridsome-plugin-remark-twitter"]
+        ["gridsome-plugin-remark-twitter"],
+        ["remark-toc"],
+        ["remark-slug"]
       ]
     }
   },

@@ -1,7 +1,7 @@
 ---
-title: 'Java Snippets #1'
-excerpt: 'CsvSchema, CsvMapper, Logbook...'
-date: 2019-06-27T18:37:00.000Z
+title: "Java Snippets #1"
+excerpt: "CsvSchema, CsvMapper, Logbook..."
+date: 2019-06-28T22:47:00.000Z
 author: mallim
 tags:
   - java
@@ -13,52 +13,17 @@ tags:
   - java-uuid-generator
 ---
 
+## Table of Contents
 
-<!-- toc -->
+## Google Guava
 
-- [SQL related](#sql-related)
-  * [Other JDBC Clients](#other-jdbc-clients)
-  * [SQL Style Guideline](#sql-style-guideline)
-  * [Common MySQL Queries](#common-mysql-queries)
-  * [8 Bulk Update Methods in Oracle](#8-bulk-update-methods-in-oracle)
-- [Spring Related](#spring-related)
-  * [@Bean can be declared in a @Component](#bean-can-be-declared-in-a-component)
-  * [NativeCriteria](#nativecriteria)
-  * [Yes, Spring Boot 2 can be deployed to WAS 8.5...](#yes-spring-boot-2-can-be-deployed-to-was-85)
-  * [Spring Standalone ApplicationRunner Example](#spring-standalone-applicationrunner-example)
-  * [Collections of articles on Spring Data /Hibernate](#collections-of-articles-on-spring-data-hibernate)
-  * [5 ways to customize Spring MVC JSON/XML output](#5-ways-to-customize-spring-mvc-jsonxml-output)
-  * [Download a Large File Through a Spring RestTemplate](#download-a-large-file-through-a-spring-resttemplate)
-  * [Spring Boot RestController @RequestPart](#spring-boot-restcontroller-requestpart)
-  * [Spring Boot Concurrency Basics](#spring-boot-concurrency-basics)
-  * [Spring Data JPA @Query(native=true)](#spring-data-jpa-querynativetrue)
-  * [PipelinR](#pipelinr)
-  * [Command Pattern](#command-pattern)
-  * [Gatling, DeferredResult](#gatling-deferredresult)
-- [Snippets](#snippets)
-  * [Lombok, Jackson and even Mybatis](#lombok-jackson-and-even-mybatis)
-  * [Collections of tutorials on Google Guava](#collections-of-tutorials-on-google-guava)
-  * [ExecutorService - 10 tips and tricks](#executorservice---10-tips-and-tricks)
-  * [Generating QR Codes With Secure Hashes Using Java](#generating-qr-codes-with-secure-hashes-using-java)
-  * [ObjectMapper, CsvSchema, CsvMapper](#objectmapper-csvschema-csvmapper)
-  * [Flux publishOn and then eg to save user](#flux-publishon-and-then-eg-to-save-user)
-  * [Defer a Flux's blocking method](#defer-a-fluxs-blocking-method)
-  * [Refactoring with Loops and Collection Pipelines](#refactoring-with-loops-and-collection-pipelines)
-  * [Assert an Exception is Thrown in JUnit 4 and 5](#assert-an-exception-is-thrown-in-junit-4-and-5)
-  * [Java Strings, Generics, Collections, Exceptions, Enums and Annotations Best Practices](#java-strings-generics-collections-exceptions-enums-and-annotations-best-practices)
-- [Interesting Libraries](#interesting-libraries)
-  * [CORS Filter](#cors-filter)
-  * [DTO Mapper in Java](#dto-mapper-in-java)
-  * [State Machines in Java](#state-machines-in-java)
-  * [Events in Java](#events-in-java)
-  * [java-uuid-generator](#java-uuid-generator)
-  * [Tablesaw](#tablesaw)
-  * [JSONB](#jsonb)
-  * [Randoop](#randoop)
-  * [Life outside Spring Security](#life-outside-spring-security)
-  * [Logging supplementary - Logbook](#logging-supplementary---logbook)
+### Joiner, Splitter, Precondition
 
-<!-- tocstop -->
+https://twitter.com/mallim/status/1144394334025895936
+
+### Collections of tutorials on Google Guava
+
+https://twitter.com/mallim/status/1142266492915867648
 
 ## SQL related
 
@@ -245,10 +210,6 @@ public class Clazz {
 
 https://stackoverflow.com/a/56127205/970200
 
-### Collections of tutorials on Google Guava
-
-https://twitter.com/mallim/status/1142266492915867648
-
 ### ExecutorService - 10 tips and tricks
 
 https://twitter.com/mallim/status/1142116007454003200
@@ -390,4 +351,3 @@ which reminds me of
 - [Logbook](https://github.com/zalando/logbook) - An extensible Java library for HTTP request and response logging. Worth taking note on this point:
   Logbook puts a big emphasis on logging the actual request/response body that was sent over the wire. The Apache HttpClient, among the following alternatives,
   is the only technology to support that.
-

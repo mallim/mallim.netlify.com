@@ -1,8 +1,9 @@
 ---
 title: "What are my development tools on Windows?"
 slug: my-development-tools
-date: 2019-06-15 20:05:00
+date: 2019-06-29 00:08:00
 author: mallim
+excerpt: Tools and utilities which I will install when I got a new laptop for development besides my usual IDE.
 tags:
   - tools
   - windows
@@ -11,34 +12,7 @@ tags:
 
 Tools and utilities which I will install when I got a new laptop for development besides my usual IDE.
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-- [The Must-Haves](#the-must-haves)
-  - [FreeCommander](#freecommander)
-  - [Notepad++](#notepad)
-  - [7-zip](#7-zip)
-  - [Cmder](#cmder)
-  - [IranView](#iranview)
-  - [Fork](#fork)
-- [The Second Waves](#the-second-waves)
-  - [reveal.js](#revealjs)
-  - [Postman](#postman)
-- [Team Must-Haves](#team-must-haves)
-  - [Gitbucket](#gitbucket)
-  - [Jenkins](#jenkins)
-  - [Nexus Repository OSS](#nexus-repository-oss)
-- [Deprecates](#deprecates)
-  - [VNote](#vnote)
-  - [ConEmu](#conemu)
-  - [TiddlyWiki](#tiddlywiki)
-  - [Redmine](#redmine)
-- [In the pipeline to try out...](#in-the-pipeline-to-try-out)
-- [Inspired by](#inspired-by)
-- [Changelog](#changelog)
-  - [Update 2018-May-09](#update-2018-may-09)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+## Table of Contents
 
 ## The Must-Haves
 

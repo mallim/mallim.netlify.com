@@ -1,7 +1,7 @@
 ---
-title: "CHANGELOG.md"
-excerpt: CHANGELOG.md for mallim.netlify.com
-date: 2019-06-23 00:00:00
+title: "CHANGELOG for mallim.netlify.com"
+excerpt: CHANGELOG for mallim.netlify.com
+date: 2019-06-29 00:00:00
 author: mallim
 tags:
   - blog
@@ -18,6 +18,11 @@ tags:
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
+
+## Changes as of 2019-06-29
+
+- Installed [remark-toc](https://github.com/remarkjs/remark-toc) and [remark-slug](https://github.com/remarkjs/remark-slug) plugins to **auto generate** table of content
+- Removed [markdown-toc](https://github.com/jonschlinkert/markdown-toc)
 
 ## Changes as of 2019-06-26
 
