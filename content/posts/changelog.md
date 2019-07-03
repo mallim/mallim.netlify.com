@@ -1,7 +1,7 @@
 ---
 title: "CHANGELOG for mallim.netlify.com"
 excerpt: CHANGELOG for mallim.netlify.com
-date: 2019-06-29 00:00:00
+date: 2019-07-03 00:00:00
 author: mallim
 tags:
   - blog
@@ -18,6 +18,10 @@ tags:
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
+
+## Changes as of 2019-07-03
+
+- Upgrade to [gridsome](https://gridsome.org/) version 0.6.5 based on [Dependabot](https://dependabot.com/) notification
 
 ## Changes as of 2019-06-29
 
