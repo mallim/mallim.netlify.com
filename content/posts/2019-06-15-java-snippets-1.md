@@ -1,7 +1,7 @@
 ---
 title: "Java Snippets #1"
 excerpt: "CsvSchema, CsvMapper, Logbook..."
-date: 2019-06-28T22:47:00.000Z
+date: 2019-07-03 21:47:00
 author: mallim
 tags:
   - java
@@ -65,7 +65,11 @@ http://www.orafaq.com/node/2450
 - Parallel DML MERGE
 - Parallel PL/SQL
 
-## Spring Related
+## Spring Framework Related
+
+### How to skip SSL validation in RestTemplate?
+
+https://twitter.com/mallim/status/1146414713900695552
 
 ### @Bean can be declared in a @Component
 
