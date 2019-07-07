@@ -27,10 +27,11 @@ _Serves as a checklist for me_
 
 ## Settings
 
-| Settings              | Value | Purpose                              |
-| :-------------------- | :---- | :----------------------------------- |
-| editor.formatOnSave   | true  | Prettier. On Saving, Format Document |
-| eslint.packageManager | yarn  | Use ESLint                           |
+| Settings                           | Value    | Purpose                              |
+| :--------------------------------- | :------- | :----------------------------------- |
+| editor.formatOnSave                | true     | Prettier. On Saving, Format Document |
+| eslint.packageManager              | yarn     | Use ESLint                           |
+| vetur.format.defaultFormatter.html | prettier | for Vue files                        |
 
 ## Misc Notes on Extensions
 

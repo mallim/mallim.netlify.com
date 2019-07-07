@@ -85,10 +85,12 @@ const tailwindcss = require("tailwindcss");
 module.exports = {
   plugins: [
     tailwindcss("tailwind.config.js"),
-    purgecss({
-      content: ["./src/**/*.html", "./src/**/*.vue"]
-    }),
-    autoprefixer()
+    autoprefixer(),
+    process.env.NODE_ENV === "production"
+      ? purgecss({
+          content: ["./src/**/*.html", "./src/**/*.vue"]
+        })
+      : ""
   ]
 };
 ```
