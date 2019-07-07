@@ -1,7 +1,7 @@
 ---
 title: "My VSCode Setup"
 excerpt: "How I configure VSCode?"
-date: 2019-06-29 00:50:00
+date: 2019-07-07 13:10:00
 author: mallim
 tags:
   - visual-studio-code
@@ -27,9 +27,10 @@ _Serves as a checklist for me_
 
 ## Settings
 
-| Settings            | Value | Purpose                              |
-| :------------------ | :---- | :----------------------------------- |
-| editor.formatOnSave | true  | Prettier. On Saving, Format Document |
+| Settings              | Value | Purpose                              |
+| :-------------------- | :---- | :----------------------------------- |
+| editor.formatOnSave   | true  | Prettier. On Saving, Format Document |
+| eslint.packageManager | yarn  | Use ESLint                           |
 
 ## Misc Notes on Extensions
 
