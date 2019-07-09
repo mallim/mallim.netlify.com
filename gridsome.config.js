@@ -32,7 +32,8 @@ module.exports = {
         ],
         ["gridsome-plugin-remark-twitter"],
         ["remark-toc"],
-        ["remark-slug"]
+        ["remark-slug"],
+        ["remark-emoji"]
       ]
     }
   },

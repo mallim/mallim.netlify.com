@@ -1,7 +1,7 @@
 ---
 title: "CHANGELOG for mallim.netlify.com"
 excerpt: CHANGELOG for mallim.netlify.com
-date: 2019-07-03 00:00:00
+date: 2019-07-10 00:00:00
 author: mallim
 tags:
   - blog
@@ -13,11 +13,15 @@ tags:
   - gridsome/remark-prismjs
 ---
 
-# Changelog
+## Changelog
 
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
+
+## Changes as of 2019-07-10
+
+- Add [remark-emoji](https://github.com/rhysd/remark-emoji) so that I can show :dog: :+1:
 
 ## Changes as of 2019-07-03
 
