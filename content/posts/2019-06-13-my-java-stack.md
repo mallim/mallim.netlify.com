@@ -2,7 +2,7 @@
 title: My Java Stack 2019
 excerpt: My preferred java working stack
 slug: my-java-stack
-date: 2019-07-03 21:22:00
+date: 2019-07-10 23:27:00
 author: mallim
 tags:
   - java
@@ -77,6 +77,7 @@ https://twitter.com/mallim/status/1146421042610499584
 ## Noteworthy Libraries
 
 - [datasource-proxy](https://github.com/ttddyy/datasource-proxy) provide proxy classes for JDBC API to intercept executing queries and methods.
+- [database-rider](https://database-rider.github.io/database-rider/) integrates DBUnit and JUnit in order to make database testing a breeze! Can work with Spring Boot !
 - [Easy Batch](https://github.com/j-easy/easy-batch/wiki) can try if really dun want to use [Apache Camel](https://camel.apache.org/) or [Pentaho Data Integration - Kettle](https://community.hitachivantara.com/docs/DOC-1009855)
 - [Eclipse Collections](https://www.eclipse.org/collections/) looks interesting to have a dab with it one day
 - [JOOQ](http://www.jooq.org/) - interested to try iff targetted db is kept to open source
