@@ -19,6 +19,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## Changes as of 2019-07-12
+
+* Upgrade [gridsome](https://gridsome.org/) from version 0.6.5 to 0.6.6
+* Upgrade [tailwindcss](https://tailwindcss.com/) from version 1.0.4 to 1.0.5
+
 ## Changes as of 2019-07-10
 
 - Add [remark-emoji](https://github.com/rhysd/remark-emoji) so that I can show :dog: :+1:
