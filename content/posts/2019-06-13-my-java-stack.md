@@ -2,7 +2,7 @@
 title: My Java Stack 2019
 excerpt: My preferred java working stack
 slug: my-java-stack
-date: 2019-07-10 23:27:00
+date: 2019-07-15 22:36:00
 author: mallim
 tags:
   - java
@@ -72,6 +72,7 @@ https://twitter.com/mallim/status/1146421042610499584
 - _Java Bean Mapping_: [MapStruct](http://mapstruct.org/), [Orika](http://orika-mapper.github.io/orika-docs/)
 - _Templating_: [JMustache](https://github.com/samskivert/jmustache) preferred over [Apache Velocity](https://velocity.apache.org/) and [Handlebars.java](http://jknack.github.io/handlebars.java/)
 - _Parser_: [univocity-parser](https://github.com/uniVocity/univocity-parsers) one of the best java based CSV parser around, if you cannot use an ETL tool. Able to work with CSV, TSV, fixed width columns
+- _Fake data generator_: [java-faker](https://github.com/DiUS/java-faker) - quite a nice test data generator
 - _XPath equivalent for JSON_: [JsonPath](https://github.com/json-path/JsonPath)
 
 ## Noteworthy Libraries
@@ -85,3 +86,4 @@ https://twitter.com/mallim/status/1146421042610499584
 ## Reference
 
 - [A curated list of awesome Java frameworks, libraries and software](http://developerthing.blogspot.com/2017/09/a-curated-list-of-awesome-java_13.html)
+- [Random Data Generators for API Testing in Java](https://techblog.dotdash.com/random-data-generators-for-api-testing-in-java-369c99075208)
