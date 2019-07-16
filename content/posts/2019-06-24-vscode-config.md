@@ -29,6 +29,8 @@ _Serves as a checklist for me_
 - [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
 - [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
 - [vscode-pandoc](https://marketplace.visualstudio.com/items?itemName=DougFinke.vscode-pandoc)
+- [WordCounter](https://marketplace.visualstudio.com/items?itemName=kirozen.wordcounter) number of words, number of char, number of lines
+  number of paragraphs and estimated read time
 
 ## Settings
 
