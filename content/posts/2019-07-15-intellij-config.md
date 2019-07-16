@@ -3,6 +3,7 @@ title: "My IntelliJ Setup Checklist"
 excerpt: "My IntelliJ Setup Checklist"
 date: 2019-07-16 21:16:00
 author: mallim
+slug: my-intellij-idea
 tags:
   - intellij
 ---
@@ -23,7 +24,7 @@ tags:
 
 ## Settings To Change
 
-* Go to File -> Settings -> Editor -> Code Style -> Java -> Imports. Ensure there is no package in the table "Packages to use Imports with .* ". If there are, remove them. Change the values in the fields for "Class count to use import with .* " and "Names count to use import with .* " to 999
+- Go to File -> Settings -> Editor -> Code Style -> Java -> Imports. Ensure there is no package in the table "Packages to use Imports with ._ ". If there are, remove them. Change the values in the fields for "Class count to use import with ._ " and "Names count to use import with .\* " to 999
 
 ## Noteworthy
 
