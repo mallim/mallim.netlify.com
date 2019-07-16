@@ -1,7 +1,7 @@
 ---
 title: "My IntelliJ Setup Checklist"
 excerpt: "My IntelliJ Setup Checklist"
-date: 2019-07-15 20:38:00
+date: 2019-07-16 21:16:00
 author: mallim
 tags:
   - intellij
@@ -9,7 +9,7 @@ tags:
 
 ## Table of Contents
 
-## Must installed
+## Must Install
 
 - [Add to gitignore](https://plugins.jetbrains.com/plugin/10550-add-to-gitignore)
 - [Alibaba Java Coding Guidelines](https://plugins.jetbrains.com/plugin/10046-alibaba-java-coding-guidelines)
@@ -20,6 +20,10 @@ tags:
 - [MyBatis Log Plugin](https://plugins.jetbrains.com/plugin/10065-mybatis-log-plugin)
 - [Nyan Progress Bar](https://plugins.jetbrains.com/plugin/8575-nyan-progress-bar)
 - [String Manipulation](https://plugins.jetbrains.com/plugin/2162-string-manipulation) - too many string manipulations available to ignore it.
+
+## Settings To Change
+
+* Go to File -> Settings -> Editor -> Code Style -> Java -> Imports. Ensure there is no package in the table "Packages to use Imports with .* ". If there are, remove them. Change the values in the fields for "Class count to use import with .* " and "Names count to use import with .* " to 999
 
 ## Noteworthy
 
