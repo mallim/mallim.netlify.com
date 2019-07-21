@@ -1,7 +1,7 @@
 ---
-title: "My IntelliJ Setup Checklist"
-excerpt: "My IntelliJ Setup Checklist"
-date: 2019-07-16 21:16:00
+title: "My Essential IntelliJ Plugins and Settings"
+excerpt: "My Essential IntelliJ Plugins and Settings"
+date: 2019-07-18 22:30:00
 author: mallim
 slug: my-intellij-idea
 tags:

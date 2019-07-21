@@ -2,7 +2,7 @@
 title: My Java Stack 2019
 excerpt: My preferred java working stack
 slug: my-java-stack
-date: 2019-07-15 22:36:00
+date: 2019-07-21 15:06:00
 author: mallim
 tags:
   - java
@@ -67,6 +67,7 @@ https://twitter.com/mallim/status/1146421042610499584
 - _Database source control_: [Liquibase](http://www.liquibase.org/)
 - _DDD, CQRS_: [AxonFramework](https://axoniq.io/) allows you to do @Command, CQRS, EventStore
 - _Embedded monitoring_: [Java Melody](https://github.com/javamelody/javamelody) - for embedded monitoring
+- _Excel Import/Export via annotations_: [easy-poi](https://gitee.com/lemur/easypoi)
 - _Filter Support for Spring MVC & Spring Data JPA_: [specification-arg-resolver](https://github.com/tkaczmarzyk/specification-arg-resolver)
 - _Generate dynamic Sql based on hibernate session_: [NativeCriteria](https://blog.przemeknowak.com/NativeCriteria/)
 - _Java Bean Mapping_: [MapStruct](http://mapstruct.org/), [Orika](http://orika-mapper.github.io/orika-docs/)

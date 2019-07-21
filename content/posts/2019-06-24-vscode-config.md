@@ -1,8 +1,9 @@
 ---
-title: "My VSCode Setup"
-excerpt: "How I configure VSCode?"
-date: 2019-07-09 23:24:00
+title: "My Essential Visual Studio Code Extensions and Configurations"
+excerpt: "My Essential Visual Studio Code Extensions and Configurations"
+date: 2019-07-18 22:12:00
 author: mallim
+slug: my-vscode
 tags:
   - visual-studio-code
 ---
