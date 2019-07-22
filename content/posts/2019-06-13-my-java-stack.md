@@ -2,7 +2,7 @@
 title: My Java Stack 2019
 excerpt: My preferred java working stack
 slug: my-java-stack
-date: 2019-07-21 15:06:00
+date: 2019-07-23 06:00:00
 author: mallim
 tags:
   - java
@@ -62,18 +62,19 @@ https://twitter.com/mallim/status/1146421042610499584
 
 ## Supplementary Libraries
 
+- _Convert HTML To PDF using wkhtmltopdf_: [Java WkHtmlToPdf Wrapper](https://github.com/jhonnymertz/java-wkhtmltopdf-wrapper)
 - _CORS for those without Spring_: [CORS Filter](http://software.dzhuvinov.com/cors-filter.html) - @Cors alternative
 - _Cron expression parser_: [cron-utils](https://github.com/jmrozanec/cron-utils) - Cron utils for parsing, validations and human readable descriptions as well as date/time interoperability. http://cron-utils.com
 - _Database source control_: [Liquibase](http://www.liquibase.org/)
 - _DDD, CQRS_: [AxonFramework](https://axoniq.io/) allows you to do @Command, CQRS, EventStore
 - _Embedded monitoring_: [Java Melody](https://github.com/javamelody/javamelody) - for embedded monitoring
 - _Excel Import/Export via annotations_: [easy-poi](https://gitee.com/lemur/easypoi)
+- _Fake data generator_: [java-faker](https://github.com/DiUS/java-faker) - quite a nice test data generator
 - _Filter Support for Spring MVC & Spring Data JPA_: [specification-arg-resolver](https://github.com/tkaczmarzyk/specification-arg-resolver)
 - _Generate dynamic Sql based on hibernate session_: [NativeCriteria](https://blog.przemeknowak.com/NativeCriteria/)
 - _Java Bean Mapping_: [MapStruct](http://mapstruct.org/), [Orika](http://orika-mapper.github.io/orika-docs/)
 - _Templating_: [JMustache](https://github.com/samskivert/jmustache) preferred over [Apache Velocity](https://velocity.apache.org/) and [Handlebars.java](http://jknack.github.io/handlebars.java/)
 - _Parser_: [univocity-parser](https://github.com/uniVocity/univocity-parsers) one of the best java based CSV parser around, if you cannot use an ETL tool. Able to work with CSV, TSV, fixed width columns
-- _Fake data generator_: [java-faker](https://github.com/DiUS/java-faker) - quite a nice test data generator
 - _XPath equivalent for JSON_: [JsonPath](https://github.com/json-path/JsonPath)
 
 ## Noteworthy Libraries
