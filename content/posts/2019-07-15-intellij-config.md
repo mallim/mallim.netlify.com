@@ -1,7 +1,7 @@
 ---
 title: "My Essential IntelliJ Plugins and Settings"
 excerpt: "My Essential IntelliJ Plugins and Settings"
-date: 2019-07-18 22:30:00
+date: 2019-07-23 05:45:00
 author: mallim
 slug: my-intellij-idea
 tags:
@@ -24,7 +24,8 @@ tags:
 
 ## Settings To Change
 
-- Go to File -> Settings -> Editor -> Code Style -> Java -> Imports. Ensure there is no package in the table "Packages to use Imports with ._ ". If there are, remove them. Change the values in the fields for "Class count to use import with ._ " and "Names count to use import with .\* " to 999
+- File -> Settings -> Editor -> Code Style -> Java -> Imports. Ensure there is no package in the table "Packages to use Imports with ._ ". If there are, remove them. Change the values in the fields for "Class count to use import with ._ " and "Names count to use import with .\* " to 999
+- File -> Settings->Code Style -> Java->Wrapping and Braces -> Braces placement -> In method declaration -> Next line
 
 ## Noteworthy
 
