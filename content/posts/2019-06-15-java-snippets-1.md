@@ -1,7 +1,7 @@
 ---
 title: "Java Snippets #1"
 excerpt: "CsvSchema, CsvMapper, Logbook..."
-date: 2019-07-03 21:47:00
+date: 2019-07-23 06:05:00
 author: mallim
 tags:
   - java
@@ -14,6 +14,10 @@ tags:
 ---
 
 ## Table of Contents
+
+## Eclipse
+
+https://twitter.com/mallim/status/1153425760079642624
 
 ## Google Guava
 
@@ -277,46 +281,6 @@ public void whenDerivedExceptionThrown_thenAssertionSucceds() {
 https://twitter.com/java/status/1139931320518348801?ref_src=twsrc%5Etfw
 
 ## Interesting Libraries
-
-### CORS Filter
-
-http://software.dzhuvinov.com/cors-filter.html
-
-### DTO Mapper in Java
-
-- [MapStruct](http://mapstruct.org/)
-- [Orika Mapper](http://orika-mapper.github.io/orika-docs/)
-- [ModelMapper](http://modelmapper.org/)
-- [Dozer](https://dozermapper.github.io/)
-
-### State Machines in Java
-
-- [Spring Statemachine](https://github.com/spring-projects/spring-statemachine)
-- [Squirrel State Machine](http://hekailiang.github.io/squirrel/)
-- [stateless4j](https://github.com/oxo42/stateless4j/)
-
-### Events in Java
-
-- [Guava EventBus](https://github.com/google/guava/wiki/EventBusExplained)
-- [guava-eventbus-spring](https://github.com/armsargis/guava-eventbus-spring)
-- [simpleeventbus](https://github.com/olostan/simpleventbus)
-- [MBassador](https://github.com/bennidi/mbassador)
-- [spring-event](https://github.com/psycho-ir/spring-event) old example of using Spring application context to publish events
-- [Myclila Event](http://code.mycila.com/pubsub/) EventBus system for publish and subscribe to events within an application
-- [spring-events](https://github.com/Ninja-Squad/spring-events)
-
-Annotate a singleton bean method to be notified of the event only when the transaction has been committed
-
-```java
- @Component
- private class InvoiceArchiver {
-     @Observes(when = EventMoment.AFTER_COMMIT)
-     @Async
-     public void archiveInvoice(InvoiceCreated event) {
-         ...
-     }
- }
-```
 
 ### java-uuid-generator
 

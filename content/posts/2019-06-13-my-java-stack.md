@@ -79,11 +79,49 @@ https://twitter.com/mallim/status/1146421042610499584
 
 ## Noteworthy Libraries
 
+This means good to know and I never use...
+
 - [datasource-proxy](https://github.com/ttddyy/datasource-proxy) provide proxy classes for JDBC API to intercept executing queries and methods.
 - [database-rider](https://database-rider.github.io/database-rider/) integrates DBUnit and JUnit in order to make database testing a breeze! Can work with Spring Boot !
 - [Easy Batch](https://github.com/j-easy/easy-batch/wiki) can try if really dun want to use [Apache Camel](https://camel.apache.org/) or [Pentaho Data Integration - Kettle](https://community.hitachivantara.com/docs/DOC-1009855)
 - [Eclipse Collections](https://www.eclipse.org/collections/) looks interesting to have a dab with it one day
 - [JOOQ](http://www.jooq.org/) - interested to try iff targetted db is kept to open source
+
+### DTO Mapper in Java
+
+- [MapStruct](http://mapstruct.org/)
+- [Orika Mapper](http://orika-mapper.github.io/orika-docs/)
+- [ModelMapper](http://modelmapper.org/)
+- [Dozer](https://dozermapper.github.io/)
+
+### State Machines in Java
+
+- [Spring Statemachine](https://github.com/spring-projects/spring-statemachine)
+- [Squirrel State Machine](http://hekailiang.github.io/squirrel/)
+- [stateless4j](https://github.com/oxo42/stateless4j/)
+
+### Events in Java
+
+- [Guava EventBus](https://github.com/google/guava/wiki/EventBusExplained)
+- [guava-eventbus-spring](https://github.com/armsargis/guava-eventbus-spring)
+- [simpleeventbus](https://github.com/olostan/simpleventbus)
+- [MBassador](https://github.com/bennidi/mbassador)
+- [spring-event](https://github.com/psycho-ir/spring-event) old example of using Spring application context to publish events
+- [Myclila Event](http://code.mycila.com/pubsub/) EventBus system for publish and subscribe to events within an application
+- [spring-events](https://github.com/Ninja-Squad/spring-events)
+
+Annotate a singleton bean method to be notified of the event only when the transaction has been committed
+
+```java
+ @Component
+ private class InvoiceArchiver {
+     @Observes(when = EventMoment.AFTER_COMMIT)
+     @Async
+     public void archiveInvoice(InvoiceCreated event) {
+         ...
+     }
+ }
+```
 
 ## Reference
 
