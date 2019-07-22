@@ -25,7 +25,8 @@ tags:
 ## Settings To Change
 
 - File -> Settings -> Editor -> Code Style -> Java -> Imports. Ensure there is no package in the table "Packages to use Imports with ._ ". If there are, remove them. Change the values in the fields for "Class count to use import with ._ " and "Names count to use import with .\* " to 999
-- File -> Settings->Code Style -> Java->Wrapping and Braces -> Braces placement -> In method declaration -> Next line
+- File -> Settings -> Editor -> Code Style -> Java -> Wrapping and Braces -> Braces placement -> In method declaration -> Next line
+- File -> Settings -> Editor -> Code Style -> Java -> Wrapping and Braces -> Braces placement -> In class declaration -> Next line
 
 ## Noteworthy
 
