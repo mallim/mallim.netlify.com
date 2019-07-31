@@ -1,6 +1,6 @@
 ---
 title: "VueJS Snippets"
-date: 2019-07-29 00:00:00
+date: 2019-08-01 13:05:00
 author: mallim
 tags:
   - vuejs
@@ -9,6 +9,8 @@ tags:
 
 ## Libraries to be use by default
 
+- [axios](https://github.com/axios/axios) and [vue-axios](https://github.com/imcvampire/vue-axios)
+- [vue-cookies](https://github.com/cmp-cc/vue-cookies) has a isKey method, [vue-cookie](https://github.com/alfhen/vue-cookie) does not have
 - [vue-filter-date-format](https://github.com/eduardnikolenko/vue-filter-date-format) - simple date formatting filter for Vue.js
 - [vue-logger](https://github.com/lluvio/vue-logger) - allows you to this.\$log and more
 
