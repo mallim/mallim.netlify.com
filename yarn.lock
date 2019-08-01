@@ -3762,10 +3762,10 @@ gridsome-plugin-remark-twitter@^0.1.2:
     node-fetch "^2.3.0"
     unist-util-visit "^1.4.0"
 
-gridsome-plugin-rss@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/gridsome-plugin-rss/-/gridsome-plugin-rss-1.1.0.tgz#de8788ae3bac32911a7717709d82c7d6151b6ecf"
-  integrity sha512-1Rx0Kx30Bs3z+Gge7Unf93UV32sU/k9j9Xzn8msiNXfH/eZ6BYK+Uw8RcC1GzfjZir2s9fbZuvkrfkhqqylc3g==
+gridsome-plugin-rss@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/gridsome-plugin-rss/-/gridsome-plugin-rss-1.1.2.tgz#aa7f3f6cba6cfcfa5b89f50f67cce8dd32d8265b"
+  integrity sha512-Npi2QB22aumI5oZH2g2YwtXbbSNxiXmZcJi9hG2wAMzmj+292tWaRFZrrqldWH8qcoBHJNvyD5Fk+/Crg9QBKw==
   dependencies:
     rss "^1.2.2"
 
