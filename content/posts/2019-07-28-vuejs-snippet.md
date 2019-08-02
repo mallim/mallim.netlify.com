@@ -12,7 +12,8 @@ tags:
 - [axios](https://github.com/axios/axios) and [vue-axios](https://github.com/imcvampire/vue-axios)
 - [vue-cookies](https://github.com/cmp-cc/vue-cookies) has a isKey method, [vue-cookie](https://github.com/alfhen/vue-cookie) does not have
 - [vue-filter-date-format](https://github.com/eduardnikolenko/vue-filter-date-format) - simple date formatting filter for Vue.js
-- [vue-logger](https://github.com/lluvio/vue-logger) - allows you to this.\$log and more
+- [vue-logger](https://github.com/lluvio/vue-logger) - allows you to this.$log and more
+- [vue-toasted](https://github.com/shakee93/vue-toasted) 
 
 ## Noteworthy Libraries
 
