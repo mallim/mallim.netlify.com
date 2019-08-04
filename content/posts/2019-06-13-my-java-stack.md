@@ -2,7 +2,7 @@
 title: My Java Stack 2019
 excerpt: My preferred java working stack
 slug: my-java-stack
-date: 2019-07-23 06:00:00
+date: 2019-08-04 16:00:00
 author: mallim
 tags:
   - java
@@ -86,6 +86,7 @@ This means good to know and I never use...
 - [Easy Batch](https://github.com/j-easy/easy-batch/wiki) can try if really dun want to use [Apache Camel](https://camel.apache.org/) or [Pentaho Data Integration - Kettle](https://community.hitachivantara.com/docs/DOC-1009855)
 - [Eclipse Collections](https://www.eclipse.org/collections/) looks interesting to have a dab with it one day
 - [JOOQ](http://www.jooq.org/) - interested to try iff targetted db is kept to open source
+- [XDocReport](https://github.com/opensagres/xdocreport) - DocReport means XML Document reporting. It's Java API to merge XML document created with MS Office (docx) or OpenOffice (odt), LibreOffice (odt) with a Java model to generate report and convert it if you need to another format (PDF, XHTML...).
 
 ### DTO Mapper in Java
 
