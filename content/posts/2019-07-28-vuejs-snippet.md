@@ -1,6 +1,6 @@
 ---
 title: "VueJS Snippets"
-date: 2019-08-04 19:34:00
+date: 2019-08-07 06:30:00
 author: mallim
 tags:
   - vuejs
@@ -11,8 +11,11 @@ tags:
 ## Libraries To Use By Default
 
 - [axios](https://github.com/axios/axios) and [vue-axios](https://github.com/imcvampire/vue-axios)
+- [casl-vue](https://github.com/stalniy/casl/tree/master/packages/casl-vue) to use [casl](https://github.com/stalniy/casl) is an isomorphic authorization JavaScript library which restricts what resources a given user is allowed to access
 - [vue-cookies](https://github.com/cmp-cc/vue-cookies) has a isKey method, [vue-cookie](https://github.com/alfhen/vue-cookie) does not have
+- [vue-faker](https://github.com/BrockReece/vue-faker) - fake data generator
 - [vue-filter-date-format](https://github.com/eduardnikolenko/vue-filter-date-format) - simple date formatting filter for Vue.js
+- [vue-loading-overlay](https://ankurk91.github.io/vue-loading-overlay/)
 - [vue-toasted](https://github.com/shakee93/vue-toasted)
 - [vee-validate](https://github.com/baianat/vee-validate) - Template Based Validation Framework for Vue.js
 
