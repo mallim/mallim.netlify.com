@@ -1,9 +1,11 @@
 ---
 title: "Create a backup or a bundle of your git repository"
-date: 2019-07-29 16:00:00
+excerpt: "SOP for git bundle/unbundle"
+date: 2019-08-10 07:53:00
 author: mallim
 tags:
   - git
+  - bundle
 ---
 
 ## Create a bundle
