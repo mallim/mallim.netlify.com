@@ -1,7 +1,7 @@
 ---
-title: "vue cli 3 working log"
-excerpt: "VueJS + Tailwindcss + PurgeCSS"
-date: 2019-07-06 19:42:00
+title: "vue cli 3 working log v2"
+excerpt: "VueJS + Tailwindcss + Fontawesome + Bulma"
+date: 2019-08-19 22:21:00
 author: mallim
 tags:
   - vue cli
@@ -10,7 +10,7 @@ tags:
 
 ## Instructions below are based on the following:
 
-- vue cli 3.9.3
+- vue cli 3.10.0
 - Tailwindcss 1.0.4
 
 ## Install the vue CLI
@@ -19,7 +19,7 @@ tags:
 yarn global add @vue/cli
 ```
 
-check vue is load and ready
+## Check vue is load and ready
 
 ```shell
 vue --version
@@ -27,8 +27,10 @@ vue --version
 
 ## vue create project
 
+- frontend for vuejs, backend for Spring Boot
+
 ```shell
-vue create vue-starter-template
+vue create <project_name>\frontend
 ```
 
 - Please pick a preset: Manually select features
@@ -39,60 +41,57 @@ vue create vue-starter-template
 ## Run and check
 
 ```shell
-cd vue-starter-template
+cd <project_name>\frontend
 yarn serve
 ```
 
 ## Installing and configuring tailwindcss
 
-```shell
-yarn add tailwindcss
-
-npx tailwind init
-```
-
-## Create src\main.scss
-
-```scss
-@tailwind base;
-
-@tailwind components;
-
-@tailwind utilities;
-```
-
-## Include main.scss in main.js
-
-```javascript
-import "./main.css";
-```
-
-## Install for PurgeCSS
+- by [vue-cli-plugin-tailwind](https://github.com/ky-is/vue-cli-plugin-tailwind)
 
 ```shell
-yarn add purgecss @fullhuman/postcss-purgecss
+$ vue add @ky-is/tailwind
 ```
 
-## Edit postcss.config.js
+### Post tailwindcss plugin
+
+- Rename @/assets/styles/tailwind.postcss to @/assets/styles/tailwind.scss
+- Add tw- prefix
+
+### Add tw prefix to tailwind.config.js
 
 ```javascript
-const purgecss = require("@fullhuman/postcss-purgecss");
-
-const autoprefixer = require("autoprefixer");
-
-const tailwindcss = require("tailwindcss");
-
 module.exports = {
-  plugins: [
-    tailwindcss("tailwind.config.js"),
-    autoprefixer(),
-    process.env.NODE_ENV === "production"
-      ? purgecss({
-          content: ["./src/**/*.html", "./src/**/*.vue"]
-        })
-      : ""
-  ]
+  prefix: "tw-",
+  theme: {
+    extend: {}
+  },
+  variants: {},
+  plugins: []
 };
+```
+
+## Install fontawesome by plugin
+
+```
+$ vue add fontawesome
+```
+
+## Install buefy by plugin
+
+by [vue-cli-plugin-buefy](https://github.com/buefy/vue-cli-plugin-buefy)
+
+```
+$ vue add buefy
+```
+
+### Modify main.js
+
+```
+Vue.use(Buefy, {
+  defaultIconPack: "fas",
+  defaultIconComponent: "font-awesome-icon"
+});
 ```
 
 ## References
