@@ -24,7 +24,7 @@
     "remark-slug": "^5.1.2",
     "remark-toc": "^6.0.0",
     "tailwindcss": "^1.1.2",
-    "tailwindcss-transitions": "^2.0.1",
+    "tailwindcss-transitions": "^2.1.0",
     "vue-disqus": "^3.0.5",
     "vue-parallaxy": "^1.1.1"
   }
