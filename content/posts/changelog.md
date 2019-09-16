@@ -22,6 +22,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ## Changes as of 2019-09-16
 
 * Upgrade [gridsome](https://gridsome.org/) from version 0.6.6 to 0.6.9
+* Bump gridsome-plugin-rss from 1.1.0 to 1.1.3
 
 ## Changes as of 2019-07-12
 
