@@ -23,6 +23,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 * Upgrade [gridsome](https://gridsome.org/) from version 0.6.6 to 0.6.9
 * Bump gridsome-plugin-rss from 1.1.0 to 1.1.3
+* Bump @gridsome/source-filesystem from 0.5.0 to 0.6.0
+* Bump @gridsome/transformer-remark from 0.3.2 to 0.3.3
+* Bump remark-toc from 5.1.1 to 6.0.0 
+* Bump tailwindcss from 1.0.5 to 1.1.2
+* Bump tailwindcss-transitions from 2.0.1 to 2.1.0
+* Bump @fullhuman/postcss-purgecss from 1.2.0 to 1.3.0
 
 ## Changes as of 2019-07-12
 
