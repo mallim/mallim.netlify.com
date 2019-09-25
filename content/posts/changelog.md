@@ -23,6 +23,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 * Upgrade gridsome from 0.6.9 to 0.7.5
 * Bump @gridsome/transformer-remark from 0.3.3 to 0.3.4
+* Bump @gridsome/plugin-sitemap from 0.2.1 to 0.2.2
 
 ## Changes as of 2019-09-16
 
