@@ -22,6 +22,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ## Changes as of 2019-09-25
 
 * Upgrade gridsome from 0.6.9 to 0.7.5
+* Bump @gridsome/transformer-remark from 0.3.3 to 0.3.4
 
 ## Changes as of 2019-09-16
 
