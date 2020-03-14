@@ -10,10 +10,10 @@ tags:
 
 ## Instructions below are based on the following:
 
-- Angular 8 CLI
+- Angular 9 CLI (version 9.0.5)
 - Tailwindcss 1.0.4
 
-For the impatient, you may check [Github](https://github.com/mallim/angular-starter-template)
+For the impatient, you may check [Github](https://github.com/mallim/angular9-starter-template)
 
 ## Install the Angular CLI
 
@@ -24,13 +24,13 @@ yarn global add @angular/cli
 ## Create a workspace and initial application (scss)
 
 ```shell
-ng new angular-starter-template --style=scss
+ng new angular9-starter-template --style=scss
 ```
 
 ## Installing and configuring tailwindcss
 
 ```shell
-cd angular-starter-template
+cd angular9-starter-template
 
 yarn add tailwindcss
 
