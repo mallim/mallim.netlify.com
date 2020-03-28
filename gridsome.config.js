@@ -13,7 +13,9 @@ class TailwindExtractor {
 module.exports = {
   siteName: "A blog of a Software Craftsman",
   siteUrl: "https://mallim.netlify.com",
-  titleTemplate: `%s | Mallim`,
+  siteDescription:
+    "Mallim's Site is a collections of thoughts, stories, and ideas of a Software Craftsman who is 20++ years in software development",
+  titleTemplate: `%s | Mallim's Site`,
   transformers: {
     remark: {
       externalLinksTarget: "_blank",
@@ -43,16 +45,13 @@ module.exports = {
       options: {
         path: "content/posts/**/*.md",
         typeName: "Post",
-        route: "/:slug",
         refs: {
           tags: {
             typeName: "Tag",
-            route: "/tag/:id",
             create: true
           },
           author: {
             typeName: "Author",
-            route: "/author/:id",
             create: true
           }
         }
@@ -93,6 +92,12 @@ module.exports = {
       }
     }
   ],
+
+  templates: {
+    Post: '/:title',
+    Tag: '/tag/:id',
+    Author: '/author/:id',
+  },
 
   chainWebpack: config => {
     config.module
