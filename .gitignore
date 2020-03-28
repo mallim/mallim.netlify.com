@@ -7,3 +7,4 @@ dist
 .env
 .env.*
 *.code-workspace
+.DS_Store
