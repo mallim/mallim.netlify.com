@@ -81,7 +81,7 @@ module.exports = {
         feedItemOptions: node => ({
           title: node.title,
           description: node.description,
-          url: "https://mallim.netlify.com/" + node.slug,
+          url: "https://mallim.netlify.com/" + node.path,
           author: node.author,
           date: node.date
         }),
@@ -94,9 +94,9 @@ module.exports = {
   ],
 
   templates: {
-    Post: '/:title',
-    Tag: '/tag/:id',
-    Author: '/author/:id',
+    Post: "/:title",
+    Tag: "/tag/:id",
+    Author: "/author/:id"
   },
 
   chainWebpack: config => {
