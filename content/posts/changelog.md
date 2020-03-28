@@ -29,6 +29,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 * Upgrade gridsome-plugin-rss
 * Upgrade remark-emoji
 * Upgrade remark-toc
+* Upgrade @gridsome/transformer-remark
 
 ## Changes as of 2020-03-14
 
