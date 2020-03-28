@@ -4,12 +4,6 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
-class TailwindExtractor {
-  static extract(content) {
-    return content.match(/[A-Za-z0-9-_:\/]+/g) || [];
-  }
-}
-
 module.exports = {
   siteName: "A blog of a Software Craftsman",
   siteUrl: "https://mallim.netlify.com",
@@ -81,7 +75,7 @@ module.exports = {
         feedItemOptions: node => ({
           title: node.title,
           description: node.description,
-          url: "https://mallim.netlify.com/" + node.path,
+          url: "https://mallim.netlify.com" + node.path,
           author: node.author,
           date: node.date
         }),
@@ -118,12 +112,8 @@ module.exports = {
             ...[
               require("@fullhuman/postcss-purgecss")({
                 content: ["src/assets/**/*.css", "src/**/*.vue", "src/**/*.js"],
-                extractors: [
-                  {
-                    extractor: TailwindExtractor,
-                    extensions: ["css", "vue", "js"]
-                  }
-                ],
+                defaultExtractor: content =>
+                  content.match(/[\w-/:%]+(?<!:)/g) || [],
                 whitelistPatterns: [/shiki/]
               })
             ]
