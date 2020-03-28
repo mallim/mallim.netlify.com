@@ -1,24 +1,31 @@
 <template>
   <Layout>
     <main>
-      <post-header :post="$page.post"/>
+      <post-header :post="$page.post" />
 
       <article
         class="max-w-xl md:max-w-2xl xl:max-w-3xl mx-auto px-6 sm:px-12 pt-16"
-        :class="{'border-b border-grey-lighter pb-10 mb-16': !$page.post.author}"
+        :class="{
+          'border-b border-grey-lighter pb-10 mb-16': !$page.post.author
+        }"
       >
         <alert
           v-if="postIsOlderThanOneYear"
           class="bg-orange-100 border-l-4 border-orange-500 text-orange-900"
-        >This post is over a year old, some of this information may be out of date.</alert>
+          >This post is over a year old, some of this information may be out of
+          date.</alert
+        >
 
         <div
-          :class="{'pb-10': $page.post.author || $page.post.tags}"
+          :class="{ 'pb-10': $page.post.author || $page.post.tags }"
           class="markdown text-lg leading-normal text-gray-700"
           v-html="$page.post.content"
         />
         <div class>
-          <vue-disqus shortname="mallim" :identifier="$page.post.title"></vue-disqus>
+          <vue-disqus
+            shortname="mallim"
+            :identifier="$page.post.title"
+          ></vue-disqus>
         </div>
         <footer
           v-if="$page.post.author || $page.post.tags"
@@ -48,7 +55,9 @@
             v-if="$page.post.author"
             class="flex flex-wrap items-center justify-center sm:justify-left border-t border-b border-gray-300 w-full mt-10 py-10 sm:px-16"
           >
-            <figure class="px-2 mb-1 sm:mb-0 w-full sm:w-1/5 flex justify-center">
+            <figure
+              class="px-2 mb-1 sm:mb-0 w-full sm:w-1/5 flex justify-center"
+            >
               <g-link :to="`${$page.post.author.path}/`">
                 <img
                   :src="avatar"
@@ -56,7 +65,7 @@
                   @error="imageLoadError"
                   width="100"
                   class="rounded-full p-4 sm:p-0"
-                >
+                />
               </g-link>
             </figure>
             <div class="px-4 sm:w-4/5 text-center sm:text-left">
@@ -64,20 +73,23 @@
                 <g-link
                   :to="`${$page.post.author.path}/`"
                   class="text-black hover:text-gray-600 capitalize border-b-2 border-transparent transition-color"
-                >{{ titleCase($page.post.author.title) }}</g-link>
+                  >{{ titleCase($page.post.author.title) }}</g-link
+                >
               </h4>
               <p class="leading-normal">
                 <g-link
                   :to="`${$page.post.author.path}/`"
                   class="text-blue-500 hover:text-blue-400 transition-color"
-                >See all posts by {{ titleCase($page.post.author.title) }} &rarr;</g-link>
+                  >See all posts by
+                  {{ titleCase($page.post.author.title) }} &rarr;</g-link
+                >
               </p>
             </div>
           </div>
         </footer>
       </article>
 
-      <site-footer class="pb-8 sm:pb-10"/>
+      <site-footer class="pb-8 sm:pb-10" />
     </main>
   </Layout>
 </template>
@@ -176,10 +188,10 @@ export default {
     },
     postUrl() {
       let siteUrl = this.config.siteUrl;
-      let postSlug = this.$page.post.slug;
+      let postPath = this.$page.post.path;
 
-      return postSlug
-        ? `${siteUrl}/${postSlug}/`
+      return postPath
+        ? `${siteUrl}/${postPath}/`
         : `${siteUrl}/${slugify(this.$page.post.title)}/`;
     },
     ogImageUrl() {
@@ -195,6 +207,7 @@ export default {
 query Post ($path: String) {
   post (path: $path) {
     title
+    path
     slug
     datetime: date (format: "YYYY-MM-DD HH:mm:ss")
     content
