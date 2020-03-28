@@ -23,6 +23,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 * Upgrade vue-analytics due to @gridsome/plugin-google-analytics
 * Upgrade @gridsome/plugin-sitemap
+* Upgrade @gridsome/source-filesystem
 
 ## Changes as of 2020-03-14
 
