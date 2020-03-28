@@ -89,7 +89,7 @@ export default {
         },
         {
           property: "og:url",
-          content: `${this.config.siteUrl}/${this.$page.tag.path}/`
+          content: `${this.config.siteUrl}/${this.$page.tag.path}`
         },
         { property: "og:image", content: this.ogImageUrl },
 
