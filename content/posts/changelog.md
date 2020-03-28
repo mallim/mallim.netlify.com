@@ -34,6 +34,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 * Upgrade gridsome-plugin-remark-twitter
 * Upgrade medium-zoom
 * Upgrade postcss-nested
+* Upgrade @fullhuman/postcss-purgecss
 
 ## Changes as of 2020-03-14
 
