@@ -4353,10 +4353,10 @@ gridsome-plugin-remark-shiki@^0.3.0:
     shiki-languages "^0.1.6"
     unist-util-visit "^2.0.1"
 
-gridsome-plugin-remark-twitter@^0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/gridsome-plugin-remark-twitter/-/gridsome-plugin-remark-twitter-0.1.2.tgz#0ba8778661ed5f28d454a7ed0fb737b93b4aaeae"
-  integrity sha512-1uCr02aerc7Yues8HqvSaE5wDGpF0VTQFMFo6P9FQ2gmNXQKSwKcDapfqEQsc6eTcMcOZXsCyqUFseWhHa5vUw==
+gridsome-plugin-remark-twitter@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/gridsome-plugin-remark-twitter/-/gridsome-plugin-remark-twitter-0.2.1.tgz#cf66c2c73a891091c58d10c93ba82a3e49d277b8"
+  integrity sha512-e7YnDDPP96L8L8/o7hF0vPhwaWvw3Edqlt1uKIYA8GzSP17FaojahHmuTG/SPNFJd2ivZqDyD8lEMAAMIqd3zA==
   dependencies:
     node-fetch "^2.3.0"
     unist-util-visit "^1.4.0"
