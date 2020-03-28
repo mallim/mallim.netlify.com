@@ -31,6 +31,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 * Upgrade remark-toc
 * Upgrade @gridsome/transformer-remark
 * Add time to read
+* Upgrade gridsome-plugin-remark-twitter
 
 ## Changes as of 2020-03-14
 
