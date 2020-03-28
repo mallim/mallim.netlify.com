@@ -76,6 +76,7 @@ export default {
         node {
           id
           title
+          timeToRead
           datetime: date (format: "YYYY-MM-DD HH:mm:ss")
           content
           excerpt
