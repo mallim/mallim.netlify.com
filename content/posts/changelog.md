@@ -24,6 +24,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 * Upgrade vue-analytics due to @gridsome/plugin-google-analytics
 * Upgrade @gridsome/plugin-sitemap
 * Upgrade @gridsome/source-filesystem
+* Upgrade gridsome-plugin-remark-twitter
+* Upgrade gridsome-plugin-remark-shiki
+* Upgrade gridsome-plugin-rss
+* Upgrade remark-emoji
+* Upgrade remark-toc
 
 ## Changes as of 2020-03-14
 
