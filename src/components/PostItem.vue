@@ -18,7 +18,7 @@
               by
               <g-link
                 :to="`${post.author.path}/`"
-                class="text-gray-700 capitalize border-b border-transparent hover:border-gray-400 transition-border-color"
+                class="text-gray-700 capitalize border-b border-transparent hover:border-gray-400 transition-colors duration-30"
                 v-if="post.author"
                 >{{ titleCase(post.author.title) }}</g-link
               >
@@ -27,7 +27,7 @@
               in
               <g-link
                 :to="`${post.tags[0].path}/`"
-                class="text-gray-700 capitalize border-b border-transparent hover:border-gray-400 transition-border-color"
+                class="text-gray-700 capitalize border-b border-transparent hover:border-gray-400 transition-colors duration-30"
                 >{{ titleCase(post.tags[0].title) }}
               </g-link>
             </span>

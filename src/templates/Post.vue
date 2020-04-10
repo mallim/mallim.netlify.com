@@ -36,7 +36,7 @@
               v-for="tag in $page.post.tags"
               :key="tag.id"
               :to="`${tag.path}/`"
-              class="inline-block text-teal-400 hover:text-white hover:bg-teal-400 border border-teal-400 font-sans font-bold text-xs sm:text-sm px-4 py-2 mr-4 mb-2 rounded-full transition-color transition-bg"
+              class="inline-block text-teal-400 hover:text-white hover:bg-teal-400 border border-teal-400 font-sans font-bold text-xs sm:text-sm px-4 py-2 mr-4 mb-2 rounded-full transition-colors duration-300 transition-bg"
             >
               <svg
                 class="inline w-3 fill-current align-middle mr-1"
@@ -72,14 +72,14 @@
               <h4 class="font-sans font-bold text-lg sm:text-xl mb-2 sm:mb-4">
                 <g-link
                   :to="`${$page.post.author.path}/`"
-                  class="text-black hover:text-gray-600 capitalize border-b-2 border-transparent transition-color"
+                  class="text-black hover:text-gray-600 capitalize border-b-2 border-transparent transition-colors duration-300"
                   >{{ titleCase($page.post.author.title) }}</g-link
                 >
               </h4>
               <p class="leading-normal">
                 <g-link
                   :to="`${$page.post.author.path}/`"
-                  class="text-blue-500 hover:text-blue-400 transition-color"
+                  class="text-blue-500 hover:text-blue-400 transition-colors duration-300"
                   >See all posts by
                   {{ titleCase($page.post.author.title) }} &rarr;</g-link
                 >

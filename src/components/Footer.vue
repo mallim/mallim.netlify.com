@@ -31,23 +31,28 @@
       </p>
       -->
       <p>
-        Made with ❤️ in Singapore. This website exists thanks to the open source projects
+        Made with ❤️ in Singapore. This website exists thanks to the open source
+        projects
         <a
           href="https://vuejs.org/"
-          class="border-b border-transparent hover:border-gray-400 transition-border-color"
-        >VueJS</a>,
+          class="border-b border-transparent hover:border-gray-400 transition-colors duration-300"
+          >VueJS</a
+        >,
         <a
           href="https://gridsome.org"
-          class="border-b border-transparent hover:border-gray-400 transition-border-color"
-        >Gridsome</a>,
+          class="border-b border-transparent hover:border-gray-400 transition-colors duration-300"
+          >Gridsome</a
+        >,
         <a
           href="https://tailwindcss.com/"
-          class="border-b border-transparent hover:border-gray-400 transition-border-color"
-        >Tailwind CSS</a>,
+          class="border-b border-transparent hover:border-gray-400 transition-colors duration-300"
+          >Tailwind CSS</a
+        >,
         <a
           href="https://github.com/cossssmin/gridsome-starter-bleda"
-          class="border-b border-transparent hover:border-gray-400 transition-border-color"
-        >Bleda</a>
+          class="border-b border-transparent hover:border-gray-400 transition-colors duration-300"
+          >Bleda</a
+        >
         &
         <a href="https://code.visualstudio.com/">Code</a>.
       </p>
@@ -58,26 +63,30 @@
           <li class="px-2">
             <g-link
               to="/"
-              class="border-b border-transparent hover:border-gray-400 transition-border-color"
-            >Home</g-link>
+              class="border-b border-transparent hover:border-gray-400 transition-colors duration-300"
+              >Home</g-link
+            >
           </li>
           <li class="px-2">
             <g-link
               to="/about/"
-              class="border-b border-transparent hover:border-gray-400 transition-border-color"
-            >About</g-link>
+              class="border-b border-transparent hover:border-gray-400 transition-colors duration-300"
+              >About</g-link
+            >
           </li>
           <li class="px-2">
             <a
               href="/sitemap.xml"
-              class="border-b border-transparent hover:border-gray-400 transition-border-color"
-            >Sitemap</a>
+              class="border-b border-transparent hover:border-gray-400 transition-colors duration-300"
+              >Sitemap</a
+            >
           </li>
           <li class="px-2">
             <a
               href="/feed.xml"
-              class="border-b border-transparent hover:border-gray-400 transition-border-color"
-            >RSS Feed</a>
+              class="border-b border-transparent hover:border-gray-400 transition-colors duration-300"
+              >RSS Feed</a
+            >
           </li>
         </ul>
       </nav>

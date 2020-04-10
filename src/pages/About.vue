@@ -12,7 +12,7 @@
       <nav class="absolute top-0 left-0 z-20 mt-6 ml-6">
         <g-link
           to="/"
-          class="text-gray-900 border-gray-400 text-sm border opacity-75 hover:opacity-100 rounded-full px-4 py-2 transition-opacity"
+          class="text-gray-900 border-gray-400 text-sm border opacity-75 hover:opacity-100 rounded-full px-4 py-2 transition-opacity duration-300"
           >&larr; Home</g-link
         >
       </nav>
