@@ -1,7 +1,7 @@
 ---
 title: "Food Hunting in SG"
 excerpt: "Food hunting in SG during Coronavirus Stay Home"
-date: 2020-04-11 23:12:00
+date: 2020-04-15 23:37:00
 author: mallim
 tags:
   - food
@@ -10,6 +10,10 @@ tags:
 ---
 
 ## Table of Contents
+
+## Breads also have delivery...
+
+[13 Bread Delivery Services In Singapore For Carb Lovers To Tide Through Circuit Breaker](https://wp.me/p6veUC-gSg)
 
 ## 猪肠粉 : Anson town bistro
 
