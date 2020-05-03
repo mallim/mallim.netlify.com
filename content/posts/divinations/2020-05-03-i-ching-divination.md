@@ -18,8 +18,9 @@ short of the last step...
 
 ## Facebook Group
 
-[六爻攻略解卦分享區](https://www.facebook.com/groups/348366092535914/)
+[六爻攻略解卦分享區](https://www.facebook.com/groups/348366092535914/) with a [website with tools](https://destiny.to/ubbthreads/ubbthreads.php)
 
 ## References
 
-[金钱卦:最简单的起卦法](https://yijing.5000yan.com/qigua/1160.html)
+- [金钱卦:最简单的起卦法](https://yijing.5000yan.com/qigua/1160.html)
+- [DestinyNet 命理網](https://destiny.to/ubbthreads/ubbthreads.php)
