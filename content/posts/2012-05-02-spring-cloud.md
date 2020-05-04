@@ -256,3 +256,60 @@ gcloud iam service-accounts keys create \
     ~/service-account.json \
     --iam-account guestbook@${PROJECT_ID}.iam.gserviceaccount.com
 ```
+
+## JAVAMS05 Messaging with Cloud Pub/Sub
+
+### Enable Cloud Pub/Sub API
+
+```shell
+gcloud services enable pubsub.googleapis.com
+```
+
+### Create a Cloud Pub/Sub topic
+
+```shell
+gcloud pubsub topics create messages
+```
+
+### Add Spring Cloud GCP Pub/Sub starter
+
+```xml
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-gcp-starter-pubsub</artifactId>
+</dependency>
+```
+
+### Publish message in Java code
+
+```java
+import org.springframework.cloud.gcp.pubsub.core.*;
+
+@Autowired
+private PubSubTemplate pubSubTemplate;
+
+pubSubTemplate.publish("messages", name + ": " + message);
+```
+
+### Create a subscription
+
+Create a Cloud Pub/Sub subscription
+
+```shell
+gcloud pubsub subscriptions create messages-subscription-1 \
+  --topic=messages
+```
+
+Pull messages from the subscription.
+
+```shell
+gcloud pubsub subscriptions pull messages-subscription-1
+```
+
+Remove message from the subscription by using the auto-acknowledgement switch
+
+```shell
+gcloud pubsub subscriptions pull messages-subscription-1 --auto-ack
+```
+
+

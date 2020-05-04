@@ -3,7 +3,6 @@ title: "Daily Tarot - Two of Pentacles (Reversed)"
 excerpt: "What is revealed on this day?"
 date: 2020-05-03 14:39:00
 author: mallim
-cover_image: tarot/two_of_pentacles_reversed.jpg
 tags:
   - tarot
 ---
