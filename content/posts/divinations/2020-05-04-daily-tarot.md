@@ -18,6 +18,7 @@ tags:
 
 - 置于死地而后重生
 - The Phoenix bird is a good way to view this card.
+- 凤凰涅磐，浴火重生
 
 ## Reflections
 
@@ -26,3 +27,7 @@ tags:
 - How can I best to adapt to current changes to make the most of the situation?
 
 https://www.fortunetelling.com/daily-tarot-reflections-death-tarot-card/
+
+## Aftermath
+
+- Go VTM no result, but the slow mail finally arrives
