@@ -1,13 +1,15 @@
 ---
-title: "Google Cloud laundry list"
-excerpt: "Commands performed on the Cousera lab lesson"
-date: 2020-05-02 12:54:00
+title: "Google Cloud Laundry List"
+excerpt: "Notes from Building Scalable Java Microservices with Spring Boot and Spring Cloud"
+date: 2020-05-05 13:47:00
 author: mallim
 tags:
   - coursera
   - google cloud
   - spring
 ---
+
+Notes from the [Building Scalable Java Microservices with Spring Boot and Spring Cloud](https://www.coursera.org/learn/google-cloud-java-spring) in [Coursera](https://www.coursera.org)
 
 ## Table of Contents
 
@@ -312,4 +314,66 @@ Remove message from the subscription by using the auto-acknowledgement switch
 gcloud pubsub subscriptions pull messages-subscription-1 --auto-ack
 ```
 
+## JAVAMS06 Integrating Cloud Pub/Sub with Spring
 
+### Add the Spring Integration core
+
+```xml
+<dependency>
+  <groupId>org.springframework.integration</groupId>
+  <artifactId>spring-integration-core</artifactId>
+</dependency>
+```
+
+### Create an outbound message gateway
+
+Add OutboundGateway.java in guestbook-frontend
+
+```java
+package com.example.frontend;
+
+import org.springframework.integration.annotation.MessagingGateway;
+
+@MessagingGateway(defaultRequestChannel = "messagesOutputChannel")
+public interface OutboundGateway {
+        void publishMessage(String message);
+}
+```
+
+### Publish the message
+
+```java
+@Autowired
+private OutboundGateway outboundGateway;
+
+...
+
+ outboundGateway.publishMessage(name + ": " + message);
+```
+
+### Bind the output channel to the Cloud Pub/Sub topic
+
+```java
+@Bean
+@ServiceActivator(inputChannel = "messagesOutputChannel")
+public MessageHandler messageSender(PubSubTemplate pubsubTemplate) {
+  return new PubSubMessageHandler(pubsubTemplate, "messages");
+}
+```
+
+## JAVAMS07 Uploading and Storing Files
+
+## Fix for a runtime issue
+
+```xml
+<dependency>
+  <groupId>javax.xml.bind</groupId>
+  <artifactId>jaxb-api</artifactId>
+  <version>2.3.1</version>
+</dependency>
+<dependency>
+  <groupId>javassist</groupId>
+  <artifactId>javassist</artifactId>
+  <version>3.12.1.GA</version>
+</dependency>
+```
