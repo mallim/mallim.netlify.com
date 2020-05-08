@@ -1,7 +1,7 @@
 ---
 title: "Google Cloud Laundry List"
 excerpt: "Notes from Building Scalable Java Microservices with Spring Boot and Spring Cloud"
-date: 2020-05-05 13:47:00
+date: 2020-05-07 07:33:00
 author: mallim
 tags:
   - coursera
@@ -135,19 +135,19 @@ spring.cloud.gcp.sql.instance-connection-name=YOUR_INSTANCE_CONNECTION_NAME
 Spring Cloud GCP Config starter
 
 ```xml
-        <dependency>
-           <groupId>org.springframework.cloud</groupId>
-           <artifactId>spring-cloud-gcp-starter-config</artifactId>
-        </dependency>
-        <dependency>
-           <groupId>com.google.guava</groupId>
-           <artifactId>guava</artifactId>
-           <version>20.0</version>
-        </dependency>
-        <dependency>
-           <groupId>org.springframework.boot</groupId>
-           <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
+<dependency>
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-gcp-starter-config</artifactId>
+</dependency>
+<dependency>
+  <groupId>com.google.guava</groupId>
+  <artifactId>guava</artifactId>
+  <version>20.0</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter-actuator</artifactId>
+</dependency>
 ```
 
 Frontend needs **bootstrap-cloud.properties**
@@ -218,10 +218,10 @@ gcloud services enable cloudtrace.googleapis.com
 ### Spring Cloud GCP Trace starter
 
 ```xml
-        <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-gcp-starter-trace</artifactId>
-        </dependency>
+<dependency>
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-gcp-starter-trace</artifactId>
+</dependency>
 ```
 
 ### Configure properties
@@ -361,7 +361,165 @@ public MessageHandler messageSender(PubSubTemplate pubsubTemplate) {
 }
 ```
 
-## JAVAMS07 Uploading and Storing Files
+## JAVAMS08 Using Cloud Platform APIs
+
+### Enable Vision API
+
+```shell
+gcloud services enable vision.googleapis.com
+```
+
+### Add the Vision client library
+
+```xml
+<dependency>
+  <groupId>com.google.cloud</groupId>
+  <artifactId>google-cloud-vision</artifactId>
+</dependency>
+```
+
+### Add a GCP credential scope for Spring
+
+application.properties
+
+```shell
+spring.cloud.gcp.credentials.scopes=https://www.googleapis.com/auth/cloud-platform
+```
+
+### Create a Vision API client bean
+
+```java
+import java.io.IOException;
+import com.google.cloud.vision.v1.*;
+import com.google.api.gax.core.CredentialsProvider;
+
+// This configures the Vision API settings with a
+// credential using the the scope we specified in
+// the application.properties.
+@Bean
+public ImageAnnotatorSettings imageAnnotatorSettings(
+  CredentialsProvider credentialsProvider)
+                throws IOException {
+  return ImageAnnotatorSettings.newBuilder()
+      .setCredentialsProvider(credentialsProvider).build();
+}
+
+@Bean
+public ImageAnnotatorClient imageAnnotatorClient(
+                ImageAnnotatorSettings settings)
+                throws IOException {
+  return ImageAnnotatorClient.create(settings);
+}
+```
+
+### Analyze the image
+
+```java
+import com.google.cloud.vision.v1.*;
+
+    @Autowired
+    private ImageAnnotatorClient annotatorClient;
+
+    private void analyzeImage(String uri) {
+        // After the image was written to GCS,
+        // analyze it with the GCS URI.It's also
+        // possible to analyze an image embedded in
+        // the request as a Base64 encoded payload.
+        List<AnnotateImageRequest> requests = new ArrayList<>();
+        ImageSource imgSrc = ImageSource.newBuilder()
+             .setGcsImageUri(uri).build();
+        Image img = Image.newBuilder().setSource(imgSrc).build();
+        Feature feature = Feature.newBuilder()
+             .setType(Feature.Type.LABEL_DETECTION).build();
+        AnnotateImageRequest request = AnnotateImageRequest
+             .newBuilder()
+             .addFeatures(feature)
+             .setImage(img)
+             .build();
+        requests.add(request);
+        BatchAnnotateImagesResponse responses =
+              annotatorClient.batchAnnotateImages(requests);
+           // We send in one image, expecting just
+           // one response in batch
+        AnnotateImageResponse response =responses.getResponses(0);
+        System.out.println(response);
+    }
+```
+
+### Setup service account
+
+```shell
+export PROJECT_ID=$(gcloud config list --format 'value(core.project)')
+gcloud iam service-accounts create guestbook
+
+gcloud projects add-iam-policy-binding ${PROJECT_ID} \
+  --member serviceAccount:guestbook@${PROJECT_ID}.iam.gserviceaccount.com \
+  --role roles/editor
+
+gcloud iam service-accounts keys create \
+    ~/service-account.json \
+    --iam-account guestbook@${PROJECT_ID}.iam.gserviceaccount.com
+```
+
+## JAVAMS09 Deploying to App Engine
+
+### Initialize App Engine
+
+```shell
+gcloud app create --region=us-central
+```
+
+### Make the guestbook frontend App Engine friendly
+
+```xml
+<plugin>
+  <groupId>com.google.cloud.tools</groupId>
+  <artifactId>appengine-maven-plugin</artifactId>
+  <version>1.3.1</version>
+  <configuration>
+    <version>1</version>
+  </configuration>
+</plugin>
+```
+
+appengine-web.xml
+
+```xml
+<appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
+  <service>default</service>
+  <version>1</version>
+  <threadsafe>true</threadsafe>
+  <runtime>java8</runtime>
+  <instance-class>B4_1G</instance-class>
+  <sessions-enabled>true</sessions-enabled>
+  <manual-scaling>
+    <instances>2</instances>
+  </manual-scaling>
+  <system-properties>
+    <property name="spring.profiles.active" value="cloud" />
+  </system-properties>
+</appengine-web-app>
+```
+
+### Configure the frontend application to use the backend URL
+
+```shell
+gcloud beta runtime-config configs variables set messages.endpoint \
+  "https://guestbook-service-dot-${PROJECT_ID}.appspot.com/guestbookMessages" \
+  --config-name frontend_cloud
+```
+
+## Deploy the frontend application to App Engine
+
+```shell
+./mvnw appengine:deploy -DskipTests
+
+gcloud app browse
+```
+
+## JAVAMS10 Debugging with Stackdriver Debugger
+
+
 
 ## Fix for a runtime issue
 
