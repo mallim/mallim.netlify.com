@@ -15,6 +15,12 @@ tags:
 
 https://www.facebook.com/edoichisingapore/
 
+Edo Ichi Japanese Cuisine 
+9 Clover Way, Singapore 579081 
+Opens 11:30AM
+Phone: 6702 7866
+Order: foodpanda.sg, deliveroo.com.sg
+
 ## My Lunchbox
 
 https://www.facebook.com/RealFoodLunchbox/?hc_location=ufi
