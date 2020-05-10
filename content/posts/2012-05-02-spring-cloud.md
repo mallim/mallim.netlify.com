@@ -517,9 +517,101 @@ gcloud beta runtime-config configs variables set messages.endpoint \
 gcloud app browse
 ```
 
-## JAVAMS10 Debugging with Stackdriver Debugger
+## JAVAMS12 Deploying to Kubernetes Engine
 
+### Create a Kubernetes Engine cluster
 
+Enable Kubernetes Engine API
+
+```shell
+gcloud services enable container.googleapis.com
+```
+
+Create a Kubernetes Engine cluster that has Cloud Logging and Monitoring enabled.
+
+```shell
+gcloud container clusters create guestbook-cluster \
+    --zone=us-central1-a \
+    --num-nodes=2 \
+    --machine-type=n1-standard-2 \
+    --enable-autorepair \
+    --enable-cloud-monitoring \
+    --enable-cloud-logging
+```
+
+### Containerize the applications
+
+Enable Container Registry API.
+
+```shell
+gcloud services enable containerregistry.googleapis.com
+```
+
+### Set up a service account
+
+Create a service account specific to the guestbook application.
+
+```shell
+gcloud iam service-accounts create guestbook
+```
+
+Add the Editor role for your project to this service account.
+
+```shell
+export PROJECT_ID=$(gcloud config list --format 'value(core.project)')
+gcloud projects add-iam-policy-binding ${PROJECT_ID} \
+  --member serviceAccount:guestbook@${PROJECT_ID}.iam.gserviceaccount.com \
+  --role roles/editor
+```
+
+Generate the JSON key file to be used by the application to identify itself using the service account.
+
+```shell
+gcloud iam service-accounts keys create \
+    ~/service-account.json \
+    --iam-account guestbook@${PROJECT_ID}.iam.gserviceaccount.com
+```
+
+Check the Kubernetes server version to verify that the Kubernetes Engine cluster
+
+```shell
+kubectl version
+```
+
+Create the secret using the service account credential file.
+
+```shell
+kubectl create secret generic guestbook-service-account \
+  --from-file=$HOME/service-account.json
+```
+
+Verify that the service account is stored.
+
+```shell
+kubectl describe secret guestbook-service-account
+```
+
+Deploy the updated Kubernetes deployments.
+
+```shell
+kubectl apply -f ~/kubernetes/
+```
+
+Check the status of the frontend application deployment.
+
+```shell
+kubectl get svc guestbook-frontend
+```
+
+Check the status of all of the services running on your Kubernetes Engine cluster.
+
+```shell
+kubectl get svc
+```
+
+## JAVAMS13 Working with Kubernetes Monitoring
+
+### Enable Cloud Monitoring and view the Cloud Kubernetes Monitoring dashboard
 
 ## Fix for a runtime issue
 
@@ -535,3 +627,5 @@ gcloud app browse
   <version>3.12.1.GA</version>
 </dependency>
 ```
+
+qwiklabs-gcp-04-d4caf43d907d
