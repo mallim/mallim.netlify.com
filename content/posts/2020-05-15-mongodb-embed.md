@@ -19,6 +19,8 @@ tags:
 
 Refer to https://github.com/mallim/mongo-spring-test-demo for the source code
 
+DO take note that **using an embedded server cannot be considered as “full integration testing”** 
+
 ## Option 1 - mongo-java-server
 
 [mongo-java-server](https://github.com/bwaldvogel/mongo-java-server) is a 
