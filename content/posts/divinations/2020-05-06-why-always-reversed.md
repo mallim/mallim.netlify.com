@@ -1,5 +1,5 @@
 ---
-title: "Question - Why always getting revserd cards?"
+title: "Question - Why always getting reversed cards?"
 excerpt: "The frequency of reversed cards appearing is alarming..."
 date: 2020-05-06 11:15:00
 author: mallim
