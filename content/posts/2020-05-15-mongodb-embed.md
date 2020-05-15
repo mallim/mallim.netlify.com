@@ -54,7 +54,7 @@ Take note this one has limited features.
 
 [fongo](https://github.com/fakemongo/fongo) is a faked out in-memory mongo for Java.
 
-It has example of working with Spring Boot 1. 
+It has an example of working with Spring Boot 1. 
 
 But keep getting errors when trying out with Spring Boot 2.
 
