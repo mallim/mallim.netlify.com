@@ -9,9 +9,13 @@ tags:
   - spring
 ---
 
+## Question
+
+| Is it possible to run a fake embedded MongoDB for Spring Boot 2 testing?
+
 ## Answer
 
-Yes ! It is possible and there are to choices:
+| Yes ! It is possible and there are two choices:
 
 Refer to https://github.com/mallim/mongo-spring-test-demo for the source code
 
