@@ -7,6 +7,7 @@ tags:
   - mongodb
   - java
   - spring
+  - reactive
 ---
 
 ## Question
@@ -17,7 +18,9 @@ tags:
 
 | Yes ! It is possible and there are two choices:
 
-Refer to https://github.com/mallim/mongo-spring-test-demo for the source code
+Refer to 
+* [mongo-spring-test-demo](https://github.com/mallim/mongo-spring-test-demo) for the **non-reactive** version 
+* [mongo-spring-test-demo-reactive](https://github.com/mallim/mongo-spring-test-demo-reactive) for the **reactive** version
 
 DO take note that **using an embedded server cannot be considered as “full integration testing”** 
 
