@@ -44,7 +44,11 @@ on top of Apache POI.
 
 This is one of the best resource I can find which teaches you how to use solely Apache POI to read/write Excel
 
- https://github.com/callicoder/java-read-write-excel-file-using-apache-poi
+https://github.com/callicoder/java-read-write-excel-file-using-apache-poi
+
+This Medium article also explains it very cleary:
+
+https://medium.com/@ssaurel/generating-microsoft-excel-xlsx-files-in-java-9508d1b521d9
 
  ## References
 
