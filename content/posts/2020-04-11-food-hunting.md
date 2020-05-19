@@ -11,6 +11,14 @@ tags:
 
 ## Table of Contents
 
+## ENJOY EATING HOUSE & BAR 
+
+383 Jln Besar, Kam Leng Hotel, Singapore 209001
+
+Hours:
+Closed ⋅ Opens 11AM Order: oddle.me, foodpanda.sg, deliveroo.com.sg
+Phone/WHATSAPP: 9299 1601 https://www.facebook.com/EnjoyEatingHouse/
+
 ## MERCHANT ROAD minced pork noodle 
 
 马珍街肉面。今天开业！
