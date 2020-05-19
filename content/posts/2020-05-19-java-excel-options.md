@@ -40,6 +40,12 @@ on top of Apache POI.
 
  | Not considering this. Project looks like not active.
 
+ ## Back to POI approach
+
+This is one of the best resource I can find which teaches you how to use solely Apache POI to read/write Excel
+
+ https://github.com/callicoder/java-read-write-excel-file-using-apache-poi
+
  ## References
 
  * [Java Excel/POJO Mapping in POI](https://stackoverflow.com/questions/58981017/java-excel-pojo-mapping-in-poi)
