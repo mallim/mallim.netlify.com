@@ -1,7 +1,7 @@
 ---
 title: "CHANGELOG for mallim.netlify.com"
 excerpt: CHANGELOG for mallim.netlify.com
-date: 2020-06-26 00:00:00
+date: 2020-06-25 00:00:00
 author: mallim
 tags:
   - blog
@@ -19,56 +19,59 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## Changes as of 2020-06-26
+## Changes as of 2020-06-25
 
-* Upgrade gridsome to 0.7.17
+- Upgrade gridsome to 0.7.17
+- Upgrade @fullhuman/postcss-purgecss (2.1.2)
+- Upgrade tailwindcss (1.3.5)
+- Follow to [gridsome-starter-bleda's](https://github.com/cossssmin/gridsome-starter-bleda) releases to Commits on April 27, 2020
 
 ## Changes as of 2020-04-10
 
-* Follow to gridsome-starter-bleda's releases to Commits on Mar 14, 2020
+- Follow to [gridsome-starter-bleda's](https://github.com/cossssmin/gridsome-starter-bleda)s releases to Commits on Mar 14, 2020
 
 ## Changes as of 2020-03-28
 
-* Upgrade vue-analytics due to @gridsome/plugin-google-analytics
-* Upgrade @gridsome/plugin-sitemap
-* Upgrade @gridsome/source-filesystem
-* Upgrade gridsome-plugin-remark-twitter
-* Upgrade gridsome-plugin-remark-shiki
-* Upgrade gridsome-plugin-rss
-* Upgrade remark-emoji
-* Upgrade remark-toc
-* Upgrade @gridsome/transformer-remark
-* Add time to read
-* Upgrade gridsome-plugin-remark-twitter
-* Upgrade medium-zoom
-* Upgrade postcss-nested
-* Upgrade @fullhuman/postcss-purgecss
+- Upgrade vue-analytics due to @gridsome/plugin-google-analytics
+- Upgrade @gridsome/plugin-sitemap
+- Upgrade @gridsome/source-filesystem
+- Upgrade gridsome-plugin-remark-twitter
+- Upgrade gridsome-plugin-remark-shiki
+- Upgrade gridsome-plugin-rss
+- Upgrade remark-emoji
+- Upgrade remark-toc
+- Upgrade @gridsome/transformer-remark
+- Add time to read
+- Upgrade gridsome-plugin-remark-twitter
+- Upgrade medium-zoom
+- Upgrade postcss-nested
+- Upgrade @fullhuman/postcss-purgecss
 
 ## Changes as of 2020-03-14
 
-* Upgrade gridsome to 0.7.13
+- Upgrade gridsome to 0.7.13
 
 ## Changes as of 2019-09-25
 
-* Upgrade gridsome from 0.6.9 to 0.7.5
-* Bump @gridsome/transformer-remark from 0.3.3 to 0.3.4
-* Bump @gridsome/plugin-sitemap from 0.2.1 to 0.2.2
+- Upgrade gridsome from 0.6.9 to 0.7.5
+- Bump @gridsome/transformer-remark from 0.3.3 to 0.3.4
+- Bump @gridsome/plugin-sitemap from 0.2.1 to 0.2.2
 
 ## Changes as of 2019-09-16
 
-* Upgrade [gridsome](https://gridsome.org/) from version 0.6.6 to 0.6.9
-* Bump gridsome-plugin-rss from 1.1.0 to 1.1.3
-* Bump @gridsome/source-filesystem from 0.5.0 to 0.6.0
-* Bump @gridsome/transformer-remark from 0.3.2 to 0.3.3
-* Bump remark-toc from 5.1.1 to 6.0.0 
-* Bump tailwindcss from 1.0.5 to 1.1.2
-* Bump tailwindcss-transitions from 2.0.1 to 2.1.0
-* Bump @fullhuman/postcss-purgecss from 1.2.0 to 1.3.0
+- Upgrade [gridsome](https://gridsome.org/) from version 0.6.6 to 0.6.9
+- Bump gridsome-plugin-rss from 1.1.0 to 1.1.3
+- Bump @gridsome/source-filesystem from 0.5.0 to 0.6.0
+- Bump @gridsome/transformer-remark from 0.3.2 to 0.3.3
+- Bump remark-toc from 5.1.1 to 6.0.0
+- Bump tailwindcss from 1.0.5 to 1.1.2
+- Bump tailwindcss-transitions from 2.0.1 to 2.1.0
+- Bump @fullhuman/postcss-purgecss from 1.2.0 to 1.3.0
 
 ## Changes as of 2019-07-12
 
-* Upgrade [gridsome](https://gridsome.org/) from version 0.6.5 to 0.6.6
-* Upgrade [tailwindcss](https://tailwindcss.com/) from version 1.0.4 to 1.0.5
+- Upgrade [gridsome](https://gridsome.org/) from version 0.6.5 to 0.6.6
+- Upgrade [tailwindcss](https://tailwindcss.com/) from version 1.0.4 to 1.0.5
 
 ## Changes as of 2019-07-10
 
